@@ -1,0 +1,17 @@
+.community-content p, .community-content li {
+    color: var(--black-color);
+}
+
+.community-content p, .community-content ul {
+    margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+.community-content ul {
+    padding-left: 1rem !important;
+}
+
+/* Arabic Support */
+.arabic-version .community-content ul {
+    padding-right: 1rem !important;
+}
