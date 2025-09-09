@@ -1,0 +1,51 @@
+.oriental-content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.oriental-content {
+    order: 2;
+    width: 100%;
+}
+
+.oriental-content .section-icon {
+    width: 2rem;
+    height: 2rem;
+    filter: brightness(0) saturate(100%) invert(41%) sepia(69%) saturate(3456%) hue-rotate(157deg) brightness(92%) contrast(103%);
+}
+
+.oriental-image-section {
+    order: 1;
+    width: 100%;
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+    .oriental-content-section {
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    /* Default for odd rows - image on right */
+    .oriental-content-section:nth-child(odd) .oriental-content {
+        order: 1;
+    }
+
+    .oriental-content-section:nth-child(odd) .oriental-image-section {
+        order: 2;
+    }
+
+    /* For even rows - image on left */
+    .oriental-content-section:nth-child(even) .oriental-content {
+        order: 2;
+    }
+
+    .oriental-content-section:nth-child(even) .oriental-image-section {
+        order: 1;
+    }
+}
+
