@@ -5,8 +5,8 @@
     --secondary-color: #194F5E;
     --white-color: #fff;
     --black-color: #2D2926;
-    --white-color: #FFD600;
-    --burble-color: #81657B;
+    --yellow-color: #FFD600;
+    --purple-color: #81657B;
     --bg-color: #D9D9D9; 
     --main-border-radius: 5px;
     --main-border: 1px solid var(--black-color);
@@ -162,10 +162,6 @@ h5 {
 
 p,
 h6 {
-}
-
-p {
-    margin-bottom: 0;
 }
 
 span,
@@ -607,5 +603,52 @@ img {
 
 /* li bullet styling */
 ul li::marker {
-    color: var(--primary-color); /* Change 'red' to your desired color */
+    color: var(--primary-color);
 }
+
+/* Two sides section styling */
+.content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.content-container {
+    order: 2;
+    width: 100%;
+}
+
+.content-image-section {
+    order: 1;
+    width: 100%;
+}
+
+/* Desktop styles */
+@media (min-width: 992px) {
+    .content-section {
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Default for odd rows - image on right */
+    .content-section:nth-child(odd) .content-container {
+        order: 1;
+    }
+
+    .content-section:nth-child(odd) .content-image-section {
+        order: 2;
+    }
+
+    /* For even rows - image on left */
+    .content-section:nth-child(even) .content-container {
+        order: 2;
+    }
+
+    .content-section:nth-child(even) .content-image-section {
+        order: 1;
+    }
+}
+

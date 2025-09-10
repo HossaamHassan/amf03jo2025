@@ -1,6 +1,3 @@
-.content-container .section-icon {
-    width: 2rem;
-    height: 2rem;
+.content-container .google-play-icon , .content-container .app-store-icon {
     filter: brightness(0) saturate(100%) invert(41%) sepia(69%) saturate(3456%) hue-rotate(157deg) brightness(92%) contrast(103%);
 }
-
