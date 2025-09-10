@@ -1,5 +1,10 @@
 label span {
-    color: var(--primary-color);
+    color: #D71F26;
+}
+
+input,
+select {
+    padding-block: 12px !important;
 }
 
 .form-select,
@@ -8,9 +13,12 @@ label span {
 .attach-input {
     border-radius: 50px;
     font-size: .85rem;
-    color: rgb(15 10 12 / 30%);
-    height: 50px;
-    border: var(--main-border-op);
+    color: rgb(45 41 38 / 30%) !important;
+    border: var(--main-border-op-30);
+}
+
+.form-select {
+    color: var(--black-color) !important;
 }
 
 .form-group {
@@ -29,8 +37,8 @@ label span {
 .input-with-icon:focus,
 .attach-input:focus {
     outline: none;
-    border: var(--main-border-op);
     box-shadow: unset;
+    border: var(--main-border);
 }
 
 .input-with-icon {
@@ -91,7 +99,7 @@ textarea.form-control {
 .iti__arrow {
     position: absolute;
     inset-inline-end: 3px;
-    background-image: url("../assets/icons/CaretDown.svg");
+    background-image: url("../assets/icons/CaretDown.svg") !important;
     background-size: 20px;
     background-position: 95% 50%;
     background-repeat: no-repeat;
@@ -102,7 +110,7 @@ textarea.form-control {
 }
 
 .iti__arrow.iti__arrow--up {
-    background-image: url("../assets/icons/CaretDown.svg");
+    background-image: url("../assets/icons/CaretDown.svg") !important;
     border-bottom: 0 !important;
     rotate: 180deg;
 }
@@ -112,7 +120,7 @@ textarea.form-control {
 }
 
 .iti__flag {
-    background-image: url("../assets//images/flags.webp");
+    background-image: url("../assets/imgaes/flags.webp");
 }
 
 .iti__search-input,
@@ -126,10 +134,10 @@ textarea.form-control {
     inset-inline-end: 0 !important;
 }
 
-.iti input.iti__tel-input {
+/* .iti input.iti__tel-input {
     text-indent: 10px;
 
-}
+} */
 
 .arabic-version .iti input.iti__tel-input {
     text-align: left;

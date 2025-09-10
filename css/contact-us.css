@@ -1,0 +1,88 @@
+.contact-us-container {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 20px;
+}
+
+@media (max-width: 1199.98px) {
+    .contact-us-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .contact-us-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact-us-section form {
+    border-top: 8px solid var(--primary-color);
+    box-shadow: 0px 0px 40px 0px #B6B6B633;
+
+    padding-inline-start: 2rem;
+    border-radius: 10px;
+}
+
+.contact-us-communication picture {
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-us-communication picture img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-us-communication .card-communication {
+    background-color: #fafafa;
+    padding: 0.8rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.contact-us-communication {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 1320px) {
+    .contact-us-communication {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-us-info {
+        padding-inline-start: unset;
+    }
+
+    .contact-us-communication .communication-content h5 {
+        min-height: unset !important;
+    }
+}
+
+.contact-us-communication .communication-content {
+    flex: 1;
+}
+
+
+@media (max-width: 991.8888888px) {
+    .contact-us-info {
+        margin-top: 3rem;
+    }
+}
+
+/* ticket154 */
+
+@media (min-width: 991.8888888px) {
+    .contact-us-info {
+        padding-inline-end: 2rem !important;
+    }
+}
