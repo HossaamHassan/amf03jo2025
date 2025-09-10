@@ -280,7 +280,15 @@ label {
 }
 
 .main-border {
-    border: var(--main-border-op);
+    border: var(--main-border);
+}
+
+.main-border-op-30 {
+    border: var(--main-border-op-30);
+}
+
+.main-border-op-15 {
+    border: var(--main-border-op-15);
 }
 
 .main-border-bottom {
@@ -297,6 +305,10 @@ img {
 
 .slick-disabled {
     opacity: .3;
+}
+
+.radius-10 {
+    border-radius: 10px;
 }
 
 /* Main Btn */
