@@ -566,6 +566,15 @@ img {
     transform: rotate(45deg);
 }
 
+.hero-content-section {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--primary-color-op-30);
+}
+
+.hero-content {
+    text-align: start;
+}
+
 @media(max-width: 991px) {
     .hero-section::before {
         top: -20%;
@@ -574,12 +583,11 @@ img {
         height: 100%;
         transform: rotate(0) translateX(50%);
     }
+    .hero-content {
+        text-align: center !important;
+    }
 }
 
-.hero-content {
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--primary-color-op-30);
-}
 /* Hero section arabic support */
 .arabic-version .hero-section::before {
     top: -105%;
