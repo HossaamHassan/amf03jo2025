@@ -607,26 +607,26 @@ ul li::marker {
 }
 
 /* Two sides section styling */
-.content-section {
+.two-sides-section .content-section {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 4rem;
 }
 
-.content-container {
+.two-sides-section .content-container {
     order: 2;
     width: 100%;
 }
 
-.content-image-section {
+.two-sides-section .content-image-section {
     order: 1;
     width: 100%;
 }
 
 /* Desktop styles */
 @media (min-width: 992px) {
-    .content-section {
+    .two-sides-section .content-section {
         flex-direction: row;
         align-items: center;
         gap: 2rem;
@@ -634,20 +634,20 @@ ul li::marker {
     }
 
     /* Default for odd rows - image on right */
-    .content-section:nth-child(odd) .content-container {
+    .two-sides-section .content-section:nth-child(odd) .content-container {
         order: 1;
     }
 
-    .content-section:nth-child(odd) .content-image-section {
+    .two-sides-section .content-section:nth-child(odd) .content-image-section {
         order: 2;
     }
 
     /* For even rows - image on left */
-    .content-section:nth-child(even) .content-container {
+    .two-sides-section .content-section:nth-child(even) .content-container {
         order: 2;
     }
 
-    .content-section:nth-child(even) .content-image-section {
+    .two-sides-section .content-section:nth-child(even) .content-image-section {
         order: 1;
     }
 }
