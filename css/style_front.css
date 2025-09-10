@@ -171,6 +171,11 @@ a {
     text-decoration: none;
 }
 
+label {
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
 .arabic-version .fa-chevron-right,
 .arabic-version .fa-chevron-left {
     scale: -1;
