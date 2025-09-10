@@ -7,6 +7,10 @@ select {
     padding-block: 12px !important;
 }
 
+input[type="radio"] {
+    padding-block: 0 !important;
+}
+
 .form-select,
 .form-control,
 .input-with-icon,
@@ -150,4 +154,39 @@ textarea.form-control {
 
 .iti--inline-dropdown .iti__dropdown-content {
     z-index: 9;
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    border: var(--main-border) !important;
+}
+
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border: var(--primary-color) !important;
+}
+
+.arabic-version .radio-btns-container {
+    direction: ltr;
+    justify-content: end;
+    flex-direction: row-reverse;
+}
+
+#file-input{
+    display: none;
+}
+
+.input-file {
+    position: relative;
+}
+
+.input-file .input-file-btn {
+    position: absolute;
+    inset-inline-end: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    color: var(--secondary-color);
+    border: none;
 }

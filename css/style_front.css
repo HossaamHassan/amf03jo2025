@@ -630,6 +630,11 @@ ul li::marker {
     color: var(--primary-color);
 }
 
+ul li a {
+    text-decoration: underline;
+    color: var(--black-color);
+}
+
 /* Two sides section styling */
 .two-sides-section .content-section {
     display: flex;

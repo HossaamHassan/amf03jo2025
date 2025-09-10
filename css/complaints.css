@@ -1,0 +1,55 @@
+.complaints-container {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 20px;
+}
+
+@media (max-width: 1199.98px) {
+    .complaints-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .complaints-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.complaints-section form {
+    border-top: 8px solid var(--primary-color);
+    box-shadow: 0px 0px 40px 0px #B6B6B633;
+
+    padding-inline-start: 2rem;
+    border-radius: 10px;
+}
+
+@media (max-width: 1320px) {
+    .complaints-info {
+        padding-inline-start: unset;
+    }
+}
+
+
+@media (max-width: 991.8888888px) {
+    .complaints-info {
+        margin-top: 3rem;
+    }
+}
+
+/* ticket154 */
+
+@media (min-width: 991.8888888px) {
+    .complaints-info {
+        padding-inline-end: 2rem !important;
+    }
+}
+
+.complaints-info ul {
+    padding-left: 1rem !important;
+}
+
+/* Arabic Support */
+.arabic-version .complaints-info ul {
+    padding-right: 1rem !important;
+}
