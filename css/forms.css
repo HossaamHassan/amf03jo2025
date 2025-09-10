@@ -21,6 +21,11 @@ select {
     color: var(--black-color) !important;
 }
 
+.arabic-version .form-select {
+    background-position: left 0.75rem center;
+    padding: .375rem .375rem .75rem 2.25rem;
+}
+
 .form-group {
     margin-bottom: 15px;
 }
@@ -92,7 +97,7 @@ textarea.form-control {
 
 .arabic-version .iti__selected-country {
     border-inline-start: 0 !important;
-    direction: ltr;
+    direction: rtl;
 }
 
 
@@ -140,7 +145,7 @@ textarea.form-control {
 } */
 
 .arabic-version .iti input.iti__tel-input {
-    text-align: left;
+    text-align: right;
 }
 
 .iti--inline-dropdown .iti__dropdown-content {
