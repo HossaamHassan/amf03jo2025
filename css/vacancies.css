@@ -1,0 +1,52 @@
+.job-card {
+    border-radius: var(--main-border-radius);
+    overflow: hidden;
+    background: var(--white-color);
+    border: var(--main-border-op-15);
+    transition: transform 0.2s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  /* Image section */
+  .card-image-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .card-image-container img {
+    border-radius: 0;
+  }
+  
+  /* Content section */
+  .card-content {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-title {
+    color: var(--primary-color); /* teal-like color */
+    margin: 0;
+  }
+
+  .chevron-icon {
+    background: var(--primary-color);
+    color: var(--white-color);
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s all ease-in-out;
+  }
+  
+  .chevron-icon:hover {
+    background: var(--secondary-color);
+  }
+  

@@ -209,3 +209,28 @@ textarea.form-control {
     color: var(--secondary-color);
     border: none;
 }
+
+/* Global form style for apply online and survey pages */
+.content-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-section-container .inputs-form {
+    max-width: 80%;
+}
+
+@media (max-width: 767.98px) {
+    .content-section-container .inputs-form {
+        max-width: 100%;
+    }
+}
+
+.content-section-container form {
+    border-top: 8px solid var(--primary-color);
+    box-shadow: 0px 0px 40px 0px #B6B6B633;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
