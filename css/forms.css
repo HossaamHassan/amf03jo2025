@@ -7,7 +7,7 @@ select {
     padding-block: 12px !important;
 }
 
-input[type="radio"] {
+input[type="radio"] , input[type="checkbox"] {
     padding-block: 0 !important;
 }
 
@@ -167,10 +167,27 @@ textarea.form-control {
     border: var(--primary-color) !important;
 }
 
-.arabic-version .radio-btns-container {
-    direction: ltr;
-    justify-content: end;
-    flex-direction: row-reverse;
+.checkbox-btns-container , .radio-btns-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem
+}
+
+.arabic-version .radio-btns-container,
+.arabic-version .checkbox-btns-container {
+    direction: rtl;
+}
+
+ .form-check {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.arabic-version .form-check-input {
+    margin: 0;
+    float: none;
+    margin-inline-end: 0.5em;
 }
 
 #file-input{
