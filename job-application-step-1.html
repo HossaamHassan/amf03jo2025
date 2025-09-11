@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Online</title>
+    <link rel="stylesheet" href="./css/fancybox.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/intlTelInput.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style_front.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/forms.css">
+    <link rel="stylesheet" href="./css/job-application-step-1.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <!-- js -->
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/intlTelInputWithUtils.min.js"></script>
+    <script src="./js/fancybox.umd.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/share-btn.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <main id="jobApplicationstep-1">
+        <!-- Hero Section -->
+        <section class="hero-section py-5">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-6">
+                            <div
+                                class="d-flex justify-content-center align-items-center align-items-lg-start flex-column gap-3">
+                                <h2 class="text-primary-color">Job Application</h2>
+                                <p class="text-black-color">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting
+                                    industry standard
+                                    dummy text ever.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="hero-image-section d-flex justify-content-center align-items-center">
+                                <img src="./assets/imgaes/header-image.png" alt="hero image"
+                                    class="default-image-class">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start Job Application step 1 Section -->
+        <section class="application-step-1-section py-5">
+            <div class="container">
+                <div class="content-section-container">
+                    <div class="inputs-form">
+                        <h6 class="mb-4 text-primary-color text-center">Please fill in the job application</h6>
+                        <p class="text-center">Please enter all relevant personal information in the fields below.</p>
+                        <!-- paginiation for steps is here -->
+
+                        <form action="" class="">
+                            <div class="d-flex flex-column w-100 align-items-center  justify-content-center ">
+                                <div class="row w-100 px-0 g-4 pt-3 pb-5">
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="formFile">Select File <span class="red-astrik">*</span></label>
+                                        <div class="input-file">
+                                            <input class="form-control" type="text" readonly name="formFile"
+                                                id="formFile">
+                                            <span class="btn input-file-btn">Browse..</span>
+                                            <input type="file" id="file-input" multiple accept="image/*" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="name">Name<span class="red-astrik">*</span> </label>
+                                        <input class="form-control " type="text" name="name" id="name"
+                                            placeholder=" Name " />
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="Gender">Select Gender <span class="red-astrik">*</span>
+                                        </label>
+                                        <select class="form-select" type="Gender" name="Gender" id="Gender"
+                                            placeholder=" Select ">
+                                            <option value="Select">Select</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="Country">Country <span class="red-astrik">*</span>
+                                        </label>
+                                        <select class="form-select" type="Country" name="Country" id="Country"
+                                            placeholder=" Select ">
+                                            <option value="Select">Select</option>
+                                            <option value="">Jordan</option>
+                                            <option value="">Egypt</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="City">City <span class="red-astrik">*</span>
+                                        </label>
+                                        <select class="form-select" type="City" name="City" id="City"
+                                            placeholder=" Select ">
+                                            <option value="Select">Select</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="birthdate">Date of Birth<span class="red-astrik">*</span>
+                                        </label>
+                                        <div class="date-input">
+                                            <input class="form-control " type="text" name="birthdate"
+                                            id="birthdate" />
+                                            <img src="./assets/icons/CalendarBlank.svg" alt="" class="calendar-icon">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="Nationality">Nationality <span class="red-astrik">*</span>
+                                        </label>
+                                        <select class="form-select" type="Nationality" name="Nationality" id="Nationality"
+                                            placeholder=" Select ">
+                                            <option value="Select">Select</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="email">Email Address<span class="red-astrik">*</span> </label>
+                                        <input class="form-control " type="email" name="email" id="email"
+                                            placeholder=" info@example.com " />
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="MaritalStatus">Marital Status <span class="red-astrik">*</span>
+                                        </label>
+                                        <select class="form-select" type="MaritalStatus" name="MaritalStatus" id="MaritalStatus"
+                                            placeholder=" Select ">
+                                            <option value="Select">Select</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="number-of-dependent">Number of Dependent <span class="red-astrik">*</span> </label>
+                                        <input class="form-control " type="text" name="number-of-dependent" id="number-of-dependent"
+                                            placeholder=" Type " />
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="street-address">Street Address (Line 1) <span class="red-astrik">*</span> </label>
+                                        <input class="form-control " type="text" name="street-address" id="street-address"
+                                            placeholder=" Type " />
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="cellular-number-input">Cellular Number<span class="red-astrik">*</span>
+                                        </label>
+                                        <input class="form-control " type="text" name="cellular-number-input"
+                                            id="cellular-number-input" placeholder=" xxx xxx xxx ">
+                                    </div>
+                                    <div class="col-lg-6 col-12 d-flex flex-column gap-2">
+                                        <label for="home-number-input">Home Phone Number<span class="red-astrik">*</span>
+                                        </label>
+                                        <input class="form-control " type="text" name="home-number-input"
+                                            id="home-number-input" placeholder=" xxx xxx xxx ">
+                                    </div>
+                                    <div class="col-lg-6 col-12 d-flex flex-column gap-2">
+                                        <label for="own-car">Do you own a car <span class="red-astrik">*</span>
+                                        </label>
+                                        <select class="form-select" type="own-car" name="own-car" id="own-car"
+                                            placeholder=" Select ">
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 d-flex flex-column gap-2">
+                                        <label for="prev-experience">Do you have previous experience in microfinance <span class="red-astrik">*</span>
+                                        </label>
+                                        <select class="form-select" type="prev-experience" name="prev-experience" id="prev-experience"
+                                            placeholder=" Select ">
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
+                                        </select>
+                                    </div>
+                                    <button class="main-btn ms-2">
+                                        <span>Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Apply Online Section -->
+    </main>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        const input = document.querySelector("#cellular-number-input");
+        window.intlTelInput(input, {
+            initialCountry: "jo",
+            strictMode: true,
+            separateDialCode: true,
+            loadUtils: () => import("/intl-tel-input/js/utils.js?1743167482095") // for formatting/placeholders etc
+        });
+
+        const workNumberInput = document.querySelector("#home-number-input");
+        window.intlTelInput(workNumberInput, {
+            initialCountry: "jo",
+            strictMode: true,
+            separateDialCode: true,
+            loadUtils: () => import("/intl-tel-input/js/utils.js?1743167482095") // for formatting/placeholders etc
+        });
+
+        const fileSelectButton = document.querySelector(".input-file-btn");
+        const fileInput = document.getElementById("file-input");
+
+        fileSelectButton.addEventListener("click", () => {
+            if (fileInput) {
+                fileInput.click();
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Online</title>
+    <link rel="stylesheet" href="./css/fancybox.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/intlTelInput.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style_front.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/forms.css">
+    <link rel="stylesheet" href="./css/job-application-step-1.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <!-- js -->
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/intlTelInputWithUtils.min.js"></script>
+    <script src="./js/fancybox.umd.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/share-btn.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+
+<body class="arabic-version">
+    <main id="jobApplicationstep-1">
+        <!-- Hero Section -->
+        <section class="hero-section py-5">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-6">
+                            <div
+                                class="d-flex justify-content-center align-items-center align-items-lg-start flex-column gap-3">
+                                <h2 class="text-primary-color">طلب التوظيف</h2>
+                                <p class="text-black-color">لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة
+                                    والتنضيد. كان نص لوريم إيبسوم المعيار الصناعي الدائم.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="hero-image-section d-flex justify-content-center align-items-center">
+                                <img src="./assets/imgaes/header-image.png" alt="hero image"
+                                    class="default-image-class">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Start Apply Online Section -->
+        <section class="apply-section py-5">
+            <div class="container">
+                <div class="content-section-container">
+                    <div class="inputs-form">
+                        <h6 class="mb-4 text-primary-color text-center">يرجى ملء طلب التوظيف</h6>
+                        <p class="text-center">يرجى إدخال جميع المعلومات الشخصية ذات الصلة في الحقول أدناه.</p>
+                        <!-- paginiation for steps is here -->
+
+                        <form action="" class="">
+                            <div class="d-flex flex-column w-100 align-items-center  justify-content-center ">
+                                <div class="row w-100 px-0 g-4 pt-3 pb-5">
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="formFile">اختر ملف <span class="red-astrik">*</span></label>
+                                        <div class="input-file">
+                                            <input class="form-control" type="text" readonly name="formFile"
+                                                id="formFile">
+                                            <span class="btn input-file-btn">تصفح..</span>
+                                            <input type="file" id="file-input" multiple accept="image/*" />
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="name">الاسم<span class="red-astrik">*</span> </label>
+                                        <input class="form-control " type="text" name="name" id="name"
+                                            placeholder=" الاسم " />
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="Gender">اختر الجنس <span class="red-astrik">*</span> </label>
+                                        <select class="form-select" type="Gender" name="Gender" id="Gender"
+                                            placeholder=" اختر ">
+                                            <option value="Select">اختر</option>
+                                            <option value="Male">ذكر</option>
+                                            <option value="Female">أنثى</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="Country">الدولة <span class="red-astrik">*</span> </label>
+                                        <select class="form-select" type="Country" name="Country" id="Country"
+                                            placeholder=" اختر ">
+                                            <option value="Select">اختر</option>
+                                            <option value="">الأردن</option>
+                                            <option value="">مصر</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="City">المدينة <span class="red-astrik">*</span> </label>
+                                        <select class="form-select" type="City" name="City" id="City"
+                                            placeholder=" اختر ">
+                                            <option value="Select">اختر</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="birthdate">تاريخ الميلاد<span class="red-astrik">*</span> </label>
+                                        <div class="date-input">
+                                            <input class="form-control " type="text" name="birthdate" id="birthdate" />
+                                            <img src="./assets/icons/CalendarBlank.svg" alt="" class="calendar-icon">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="Nationality">الجنسية <span class="red-astrik">*</span> </label>
+                                        <select class="form-select" type="Nationality" name="Nationality"
+                                            id="Nationality" placeholder=" اختر ">
+                                            <option value="Select">اختر</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="email">البريد الإلكتروني<span class="red-astrik">*</span> </label>
+                                        <input class="form-control " type="email" name="email" id="email"
+                                            placeholder=" info@example.com " />
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="MaritalStatus">الحالة الاجتماعية <span class="red-astrik">*</span>
+                                        </label>
+                                        <select class="form-select" type="MaritalStatus" name="MaritalStatus"
+                                            id="MaritalStatus" placeholder=" اختر ">
+                                            <option value="Select">اختر</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="number-of-dependent">عدد المعالين <span class="red-astrik">*</span>
+                                        </label>
+                                        <input class="form-control " type="text" name="number-of-dependent"
+                                            id="number-of-dependent" placeholder=" اكتب " />
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="street-address">عنوان الشارع (السطر 1) <span
+                                                class="red-astrik">*</span> </label>
+                                        <input class="form-control " type="text" name="street-address"
+                                            id="street-address" placeholder=" اكتب " />
+                                    </div>
+                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                        <label for="cellular-number-input">رقم الهاتف المحمول<span
+                                                class="red-astrik">*</span> </label>
+                                        <input class="form-control " type="text" name="cellular-number-input"
+                                            id="cellular-number-input" placeholder=" xxx xxx xxx ">
+                                    </div>
+                                    <div class="col-lg-6 col-12 d-flex flex-column gap-2">
+                                        <label for="home-number-input">رقم الهاتف الأرضي<span
+                                                class="red-astrik">*</span> </label>
+                                        <input class="form-control " type="text" name="home-number-input"
+                                            id="home-number-input" placeholder=" xxx xxx xxx ">
+                                    </div>
+                                    <div class="col-lg-6 col-12 d-flex flex-column gap-2">
+                                        <label for="own-car">هل تمتلك سيارة؟ <span class="red-astrik">*</span> </label>
+                                        <select class="form-select" type="own-car" name="own-car" id="own-car"
+                                            placeholder=" اختر ">
+                                            <option value="Yes">نعم</option>
+                                            <option value="No">لا</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 d-flex flex-column gap-2">
+                                        <label for="prev-experience">هل لديك خبرة سابقة في التمويل الصغير؟ <span
+                                                class="red-astrik">*</span> </label>
+                                        <select class="form-select" type="prev-experience" name="prev-experience"
+                                            id="prev-experience" placeholder=" اختر ">
+                                            <option value="Yes">نعم</option>
+                                            <option value="No">لا</option>
+                                        </select>
+                                    </div>
+                                    <button class="main-btn ms-2">
+                                        <span>التالي</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Apply Online Section -->
+    </main>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+        const input = document.querySelector("#cellular-number-input");
+        window.intlTelInput(input, {
+            initialCountry: "jo",
+            strictMode: true,
+            separateDialCode: true,
+            loadUtils: () => import("/intl-tel-input/js/utils.js?1743167482095") // for formatting/placeholders etc
+        });
+
+        const workNumberInput = document.querySelector("#home-number-input");
+        window.intlTelInput(workNumberInput, {
+            initialCountry: "jo",
+            strictMode: true,
+            separateDialCode: true,
+            loadUtils: () => import("/intl-tel-input/js/utils.js?1743167482095") // for formatting/placeholders etc
+        });
+
+        const fileSelectButton = document.querySelector(".input-file-btn");
+        const fileInput = document.getElementById("file-input");
+
+        fileSelectButton.addEventListener("click", () => {
+            if (fileInput) {
+                fileInput.click();
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -341,6 +341,10 @@ img {
     font-weight: 600;
 }
 
+.main-btn picture img {
+    filter: brightness(0) saturate(100%) invert(41%) sepia(69%) saturate(3456%) hue-rotate(157deg) brightness(92%) contrast(103%);
+}
+
 .main-btn label {
     cursor: pointer;
     color: var(--primary-color);
@@ -370,6 +374,27 @@ img {
     inset-inline-start: 0;
 }
 
+/* Secondary Btn */
+.secondary-btn {
+    color: var(--white-color);
+    background: var(--secondary-color);
+    overflow: hidden;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 7px 25px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    transition: all 0.3s ease;
+    position: relative;
+    gap: 5px;
+}
+
+.secondary-btn:hover {
+    transform: scale(1.02);
+}
 
 
 /* Share Btn */

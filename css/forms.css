@@ -210,6 +210,17 @@ textarea.form-control {
     border: none;
 }
 
+.date-input {
+ position: relative;
+}
+
+.date-input .calendar-icon {
+    position: absolute;
+    inset-inline-start: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* Global form style for apply online and survey pages */
 .content-section-container {
     display: flex;
