@@ -614,9 +614,9 @@ img {
     transform: rotate(45deg);
 }
 
-.hero-content-section {
+.hero-content {
     padding-bottom: 1rem;
-    border-bottom: 1px solid var(--primary-color-op-30);
+    border-bottom: 2px solid var(--primary-color-op-30);
 }
 
 .hero-content {
