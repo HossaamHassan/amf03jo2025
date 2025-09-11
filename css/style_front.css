@@ -299,6 +299,14 @@ label {
     border-top: var(--main-border-op);
 }
 
+.card-border {
+    border: 1px solid var(--primary-color);
+}
+
+.card-border-op-30 {
+    border: 1px solid var(--primary-color-op-30);
+}
+
 img {
     border-radius: var(--main-border-radius);
 }

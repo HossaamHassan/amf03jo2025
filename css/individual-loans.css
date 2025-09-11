@@ -1,15 +1,14 @@
-.job-card {
+.loan-card {
     border-radius: var(--main-border-radius);
     overflow: hidden;
     background: var(--white-color);
-    border: var(--main-border-op-15);
     transition: transform 0.2s ease;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
   }
   
-  .job-card:hover {
+  .loan-card:hover {
     transform: translateY(-4px);
   }
   
@@ -17,6 +16,7 @@
   .card-image-container {
     width: 100%;
     overflow: hidden;
+    padding: 1rem 0;
   }
 
   .card-image-container img {
