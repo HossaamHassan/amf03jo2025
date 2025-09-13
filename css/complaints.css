@@ -24,14 +24,14 @@
     border-radius: 10px;
 }
 
-@media (max-width: 1320px) {
+@media (max-width: 1319.98px) {
     .complaints-info {
         padding-inline-start: unset;
     }
 }
 
 
-@media (max-width: 991.8888888px) {
+@media (max-width: 991.98px) {
     .complaints-info {
         margin-top: 3rem;
     }
@@ -39,7 +39,7 @@
 
 /* ticket154 */
 
-@media (min-width: 991.8888888px) {
+@media (min-width: 991.98px) {
     .complaints-info {
         padding-inline-end: 2rem !important;
     }
