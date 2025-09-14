@@ -1,0 +1,27 @@
+.educational-section .educational-content {
+    max-width: 1200px;
+}
+
+.educational-section .educational-content h3 {
+    color: var(--primary-color);
+    margin-bottom: .5rem;
+}
+
+.educational-section .educational-content p {
+    margin-bottom: .5rem;
+}
+
+.educational-section ol {
+    padding-inline-start: 1.2rem;
+}
+
+.educational-section .educational-content ul {
+    margin-top: 5px;
+}
+
+.educational-section .educational-content ol,
+.educational-section .educational-content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

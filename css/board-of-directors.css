@@ -1,0 +1,30 @@
+.board-section .card-board {
+    box-shadow: 15px 15px 35px 0px #00000026;
+    border-radius: var(--main-border-radius);
+    border: 1px solid transparent;
+    transition: 1s;
+}
+
+.board-section .card-board:hover {
+    border: 1px solid var(--primary-color);
+    transition: .3s;
+}
+
+.board-section .card-board picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45 41 38 / 10%);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.board-section .card-board p {
+    max-width: 314px;
+}
+
+@media (max-width: 767.98px) {
+    .board-section .card-board {
+        flex: 1;
+    }
+}

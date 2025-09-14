@@ -1,0 +1,69 @@
+.faqs-section {
+    padding: var(--section-padding);
+}
+
+.faqs-section-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.faqs-section .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faqs-section .accordion-item {
+    overflow: hidden;
+    border: var(--main-border-op-15) !important;
+    border-radius: var(--main-border-radius) !important;
+    color: var(--black-color) !important;
+}
+
+.faqs-section .accordion-item button {
+    border: unset !important;
+    background-color: var(--light-color);
+    gap: 10px;
+}
+
+.faqs-section button h5 {
+    margin: 0;
+    color: var(--black-color);
+    text-align: start !important;
+}
+
+.faqs-section .accordion-button:not(.collapsed) {
+    background-color: inherit;
+    box-shadow: unset !important;
+}
+
+.faqs-section .accordion-button:not(.collapsed) h5 {
+    color: var(--primary-color);
+
+}
+
+.faqs-section .accordion-button:focus {
+    box-shadow: unset !important;
+}
+
+.faqs-section .accordion-button::after {
+    background-image: url(../assets/icons/CaretDown.svg) !important;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: 18px;
+}
+
+.faqs-section .accordion-button:not(.collapsed)::after {
+    background-image: url(../assets/icons/CaretDown.svg) !important;
+    transform: rotate(180deg);
+    background-color: var(--secondary-color);
+}
+
+.arabic-version .faqs-section .accordion-button::after {
+    margin-right: auto;
+    margin-left: unset;
+}

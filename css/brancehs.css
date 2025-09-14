@@ -1,0 +1,15 @@
+.branches-section .branch-icon {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.branches-section .branch-icon i {
+    font-size: 20px;
+}
+
+.branches-section a:hover p {
+    text-decoration: underline;
+}
