@@ -1,3 +1,7 @@
+.branches-section .form-select {
+    --bs-form-select-bg-img: url("https://www.svgrepo.com/show/59935/triangular-black-arrow-pointing-down.svg")
+}
+
 .branches-section .branch-icon {
     width: 45px;
     height: 45px;
