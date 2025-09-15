@@ -262,7 +262,7 @@
 
     .mobile-responsive {
         display: flex;
-        padding-top: 0.15rem;
+        align-items: center;
     }
 
     .footer-section ul li {
