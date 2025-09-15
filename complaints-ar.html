@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/forms.css">
+    <link rel="stylesheet" href="./css/contact-us.css">
     <link rel="stylesheet" href="./css/complaints.css">
     <link rel="stylesheet" href="./css/custom.css">
     <!-- js -->
@@ -198,85 +199,83 @@
             </div>
         </section>
         <!-- Start Contact Us Section -->
-        <section class="complaints-section py-5">
+        <section class="complaints-section contact-us-section py-5">
             <div class="container">
-                <div class="complaints-container">
-                    <div class="inputs-form">
-                        <h6 class="mb-4 text-primary-color">الشكاوى</h6>
+                <h6 class="mb-4 text-primary-color">الشكاوى</h6>
+                <div class="complaints-container contact-us-container">
+                    <div class="inputs-form mb-4 mb-lg-0">
                         <form action="" class="">
-                            <div class="d-flex flex-column w-100 align-items-start justify-content-start">
-                                <div class="row w-100 px-0 g-4 pt-3 pb-5">
-                                    <h3 class="text-primary-color">نحن سعداء بتواصلك معنا!</h3>
-                                    <div class="col-lg-6 col-12 d-flex flex-column gap-2">
-                                        <label for="name">اسمك<span class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="name" id="name"
-                                            placeholder=" اسم المرسل " />
-                                    </div>
-                                    <div class="col-lg-6 col-12 d-flex flex-column gap-2">
-                                        <label for="name">رقم الهاتف المحمول<span class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="name" id="mobile-number-input"
-                                            placeholder=" xxx xxx xxx ">
-                                    </div>
-                                    <div class="col-lg-6 col-12 d-flex flex-column gap-2">
-                                        <label for="Purpose">الغرض من التواصل <span class="red-astrik">*</span> </label>
-                                        <select class="form-select" type="Purpose" name="Purpose" id="Purpose"
-                                            placeholder=" ملاحظات ">
-                                            <option value="Feedback">ملاحظات</option>
-                                            <option value="">1</option>
-                                            <option value="">2</option>
-                                            <option value="">3</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-6 col-12 d-flex flex-column gap-2">
-                                        <label for="email">البريد الإلكتروني<span class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="email" name="email" id="email"
-                                            placeholder=" info@example.com " />
-                                    </div>
-                                    <div class="col-12 d-flex flex-column gap-2">
-                                        <label for="role">هل أنت عميل؟ <span class="red-astrik">*</span></label>
-                                        <div class="radio-btns-container d-flex gap-4">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="role" id="clientYes"
-                                                    value="yes">
-                                                <span>
-                                                    نعم
-                                                </span>
-                                            </div>
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="radio" name="role" id="clientNo"
-                                                    value="no">
-                                                <span>
-                                                    لا
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 d-flex flex-column gap-2">
-                                        <label for="letter">رسالتك</label>
-                                        <textarea class="form-control " name="letter" id="letter"
-                                            placeholder=" اكتب هنا" rows="4"></textarea>
-                                    </div>
-                                    <div class="col-12 d-flex flex-column gap-2">
-                                        <label for="formFile">اختر ملف <span class="red-astrik">*</span></label>
-                                        <div class="input-file">
-                                            <input class="form-control" type="text" readonly name="formFile"
-                                                id="formFile">
-                                            <span class="btn input-file-btn">تصفح..</span>
-                                            <input type="file" id="file-input" multiple accept="image/*" />
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="g-recaptcha m-0" data-theme="light" data-sitekey="XXXXXXXXXXXXX">
-                                        </div>
-                                    </div>
-                                    <button class="main-btn ms-2">
-                                        <span>إرسال</span>
-                                    </button>
+                            <div class="row px-0 g-4 pt-3 pb-5">
+                                <h3 class="text-primary-color">نحن سعداء بتواصلك معنا!</h3>
+                                <div class="col-lg-6 col-12 d-flex flex-column gap-2">
+                                    <label for="name">اسمك<span class="red-astrik">*</span> </label>
+                                    <input class="form-control " type="text" name="name" id="name"
+                                        placeholder=" اسم المرسل " />
                                 </div>
+                                <div class="col-lg-6 col-12 d-flex flex-column gap-2">
+                                    <label for="name">رقم الهاتف المحمول<span class="red-astrik">*</span> </label>
+                                    <input class="form-control " type="text" name="name" id="mobile-number-input"
+                                        placeholder=" xxx xxx xxx ">
+                                </div>
+                                <div class="col-lg-6 col-12 d-flex flex-column gap-2">
+                                    <label for="Purpose">الغرض من التواصل <span class="red-astrik">*</span> </label>
+                                    <select class="form-select" type="Purpose" name="Purpose" id="Purpose"
+                                        placeholder=" ملاحظات ">
+                                        <option value="Feedback">ملاحظات</option>
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-6 col-12 d-flex flex-column gap-2">
+                                    <label for="email">البريد الإلكتروني<span class="red-astrik">*</span> </label>
+                                    <input class="form-control " type="email" name="email" id="email"
+                                        placeholder=" info@example.com " />
+                                </div>
+                                <div class="col-12 d-flex flex-column gap-2">
+                                    <label for="role">هل أنت عميل؟ <span class="red-astrik">*</span></label>
+                                    <div class="radio-btns-container d-flex gap-4">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="role" id="clientYes"
+                                                value="yes">
+                                            <span>
+                                                نعم
+                                            </span>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="radio" name="role" id="clientNo"
+                                                value="no">
+                                            <span>
+                                                لا
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 d-flex flex-column gap-2">
+                                    <label for="letter">رسالتك</label>
+                                    <textarea class="form-control " name="letter" id="letter" placeholder=" اكتب هنا"
+                                        rows="4"></textarea>
+                                </div>
+                                <div class="col-12 d-flex flex-column gap-2">
+                                    <label for="formFile">اختر ملف <span class="red-astrik">*</span></label>
+                                    <div class="input-file">
+                                        <input class="form-control" type="text" readonly name="formFile" id="formFile">
+                                        <span class="btn input-file-btn">تصفح..</span>
+                                        <input type="file" id="file-input" multiple accept="image/*" />
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="g-recaptcha m-0" data-theme="light" data-sitekey="XXXXXXXXXXXXX">
+                                    </div>
+                                </div>
+                                <button class="main-btn ms-2">
+                                    <span>إرسال</span>
+                                </button>
                             </div>
+
                         </form>
                     </div>
-                    <div class="information-section d-flex align-items-center">
+                    <div class="information-section d-flex align-items-start">
                         <div class="complaints-info">
                             <div class="head-complaints-info">
                                 <h6 class="text-primary-color">معلومات أكثر</h6>
@@ -308,7 +307,7 @@
             </div>
         </section>
         <!-- End Contact Us Section -->
-         <!-- Start Footer -->
+        <!-- Start Footer -->
         <footer class="main-footer-container">
             <div class="container footer-section">
                 <div class="footer-item">

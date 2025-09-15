@@ -12,16 +12,16 @@
 
 @media (max-width: 991.98px) {
     .contact-us-container {
-        grid-template-columns: 1fr;
+        display: block;
     }
 }
 
 .contact-us-section form {
     border-top: 8px solid var(--primary-color);
     box-shadow: 0px 0px 40px 0px #B6B6B633;
-
-    padding-inline-start: 2rem;
+    padding-inline: 1rem;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .contact-us-communication picture {
