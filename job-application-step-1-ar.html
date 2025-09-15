@@ -520,29 +520,30 @@
             loadUtils: () => import("/intl-tel-input/js/utils.js?1743167482095") // for formatting/placeholders etc
         });
 
-        const fileSelectButton = document.querySelector(".input-file-btn");
-        const fileInput = document.getElementById("file-input");
-        const formFileInput = document.getElementById("formFile");
+        $(document).ready(function () {
+            const $fileSelectButton = $(".input-file-btn");
+            const $fileInput = $("#file-input");
+            const $formFileInput = $("#formFile");
+            const $fileNameSpan = $("#fileName");
 
-        fileSelectButton.addEventListener("click", () => {
-            if (fileInput) {
-                fileInput.click();
-            }
-        });
+            // Trigger file input click on button click
+            $fileSelectButton.on("click", function () {
+                $fileInput.trigger("click");
+            });
 
-        formFileInput.addEventListener("click", () => {
-            if (fileInput) {
-                fileInput.click();
-            }
-        });
+            // Trigger file input click on formFile click
+            $formFileInput.on("click", function () {
+                $fileInput.trigger("click");
+            });
 
-        fileInput.addEventListener("change", function (event) {
-            const fileNameSpan = document.getElementById("fileName");
-            if (event.target.files.length > 0) {
-                fileNameSpan.textContent = event.target.files[0].name;
-            } else {
-                fileNameSpan.textContent = "";
-            }
+            // Show selected file name
+            $fileInput.on("change", function () {
+                if (this.files.length > 0) {
+                    $fileNameSpan.text(this.files[0].name);
+                } else {
+                    $fileNameSpan.text("");
+                }
+            });
         });
     </script>
 </body>
