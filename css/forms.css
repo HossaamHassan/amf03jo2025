@@ -200,6 +200,10 @@ textarea.form-control {
     position: relative;
 }
 
+.input-file #formFile {
+    cursor: pointer;
+}
+
 .input-file .input-file-btn {
     position: absolute;
     inset-inline-end: 0;
@@ -208,6 +212,14 @@ textarea.form-control {
     background: transparent;
     color: var(--secondary-color);
     border: none;
+}
+
+.input-file #fileName {
+    position: absolute;
+    inset-inline-start: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
 }
 
 .date-input {
@@ -221,7 +233,7 @@ textarea.form-control {
     transform: translateY(-50%);
 }
 
-/* Global form style for apply online and survey pages */
+/* Global form style for full width forms */
 .content-section-container {
     display: flex;
     justify-content: center;

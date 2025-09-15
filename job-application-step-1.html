@@ -257,9 +257,10 @@
                                         <label for="formFile">Select File <span class="red-astrik">*</span></label>
                                         <div class="input-file">
                                             <input class="form-control" type="text" readonly name="formFile"
-                                                id="formFile">
+                                            id="formFile">
+                                            <span id="fileName"></span>
                                             <span class="btn input-file-btn">Browse..</span>
-                                            <input type="file" id="file-input" multiple accept="image/*" />
+                                            <input type="file" id="file-input" accept=".pdf,.doc,.docx" />
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-12 d-flex flex-column gap-2">
@@ -599,10 +600,26 @@
 
         const fileSelectButton = document.querySelector(".input-file-btn");
         const fileInput = document.getElementById("file-input");
+        const formFileInput = document.getElementById("formFile");
 
         fileSelectButton.addEventListener("click", () => {
             if (fileInput) {
                 fileInput.click();
+            }
+        });
+
+        formFileInput.addEventListener("click", () => {
+            if (fileInput) {
+                fileInput.click();
+            }   
+        });
+
+        fileInput.addEventListener("change", function (event) {
+            const fileNameSpan = document.getElementById("fileName");
+            if (event.target.files.length > 0) {
+                fileNameSpan.textContent = event.target.files[0].name;
+            } else {
+                fileNameSpan.textContent = "";
             }
         });
     </script>
