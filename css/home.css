@@ -8,6 +8,10 @@
     overflow: hidden;
 }
 
+.arabic-version .shape-slider img {
+    scale: -1;
+}
+
 .hero-slide {
     position: relative;
     width: 100%;
@@ -47,6 +51,10 @@
     transform: translate(-50%, -50%);
     inset-inline-start: 340px;
     max-width: 550px;
+}
+
+.arabic-version .hero-content-box-desktop {
+    inset-inline-start: -140px;
 }
 
 .hero-content-box-mobile {
@@ -149,14 +157,6 @@
     position: relative;
 }
 
-
-body.arabic-version .hero-arrows-container .hero-arrows-prev {
-    scale: -1;
-}
-
-body.arabic-version .hero-arrows-next {
-    scale: -1;
-}
 
 .hero-md-section {
     height: auto !important;
@@ -354,6 +354,10 @@ body.arabic-version .hero-arrows-next {
         padding-bottom: 12rem;
     }
 
+    .arabic-version .our-impact-section-container .shape-img img {
+        scale: -1;
+    }
+
     .our-impact-section .impact-cards-container .start-impact-card {
         position: absolute;
         top: -50px;
@@ -387,11 +391,21 @@ body.arabic-version .hero-arrows-next {
     transform: translate(-50%, -50%);
 }
 
+.arabic-version .our-impact-section .impact-cards-container .start-impact-card .impact-card-content {
+    inset-inline-start: unset;
+    inset-inline-end: 75%;
+}
+
 .our-impact-section .impact-cards-container .end-impact-card .impact-card-content {
     position: absolute;
     top: 50%;
     inset-inline-start: 75%;
     transform: translate(-50%, -50%);
+}
+
+.arabic-version .our-impact-section .impact-cards-container .end-impact-card .impact-card-content {
+    inset-inline-start: unset;
+    inset-inline-end: 25%;
 }
 
 .our-impact-section .impact-cards-container .impact-card-content {
@@ -494,6 +508,7 @@ body.arabic-version .hero-arrows-next {
     outline: none;
     -webkit-appearance: none;
     position: relative;
+    padding: 0 !important;
 }
 
 .range-slider::-webkit-slider-thumb {
@@ -537,7 +552,7 @@ body.arabic-version .hero-arrows-next {
     border-radius: 5px;
     top: 27%;
     transform: translateY(-50%);
-    left: 0;
+    inset-inline-start: 0;
     pointer-events: none;
     transition: width 0.3s ease;
 }
@@ -561,6 +576,10 @@ body.arabic-version .hero-arrows-next {
     transform: translateX(-50%);
     transition: all 0.3s ease;
     pointer-events: none;
+}
+
+.arabic-version .value-display {
+    transform: translateX(50%);
 }
 
 /* Side Input Fields */
@@ -597,4 +616,24 @@ body.arabic-version .hero-arrows-next {
     .loan-calculator {
         padding: 25px;
     }
+}
+
+.modal-header {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-bottom: none;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    opacity: 1;
+    color: var(--white-color);
+    transition: opacity 0.3s ease;
+}
+
+.close-btn:hover {
+    opacity: 0.7;
 }

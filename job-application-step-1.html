@@ -224,7 +224,7 @@
             </div>
         </section>
         <!-- Start Job Application step 1 Section -->
-        <section class="application-step-1-section py-5">
+        <section class="application-step-1-section">
             <div class="container">
                 <div class="content-section-container">
                     <div class="inputs-form">
@@ -257,7 +257,7 @@
                                         <label for="formFile">Select File <span class="red-astrik">*</span></label>
                                         <div class="input-file">
                                             <input class="form-control" type="text" readonly name="formFile"
-                                            id="formFile">
+                                                id="formFile">
                                             <span id="fileName"></span>
                                             <span class="btn input-file-btn">Browse..</span>
                                             <input type="file" id="file-input" accept=".pdf,.doc,.docx" />
@@ -611,7 +611,7 @@
         formFileInput.addEventListener("click", () => {
             if (fileInput) {
                 fileInput.click();
-            }   
+            }
         });
 
         fileInput.addEventListener("change", function (event) {

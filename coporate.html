@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apply Online</title>
+    <title>News</title>
     <link rel="stylesheet" href="./css/fancybox.css">
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/slick-theme.css">
@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="./css/style_front.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/forms.css">
-    <link rel="stylesheet" href="./css/job-application-step-4.css">
+    <link rel="stylesheet" href="./css/coporate.css">
+    <link rel="stylesheet" href="./css/media-card-.css">
     <link rel="stylesheet" href="./css/custom.css">
     <!-- js -->
     <script src="./js/jquery-3.7.1.js"></script>
@@ -27,23 +27,25 @@
     <script src="./js/main.js"></script>
 </head>
 
-<body class="arabic-version">
-    <main id="jobApplicationstep-4">
+<body>
+    <main id="news">
         <!-- Start Navbar -->
         <!-- Start Top Bar -->
-        <nav class="top-bar bg-primary-color">
-            <div class="container d-flex align-items-center justify-content-between">
+        <nav class="top-bar  bg-primary-color">
+            <div class="container d-flex align-items-center justify-content-between ">
                 <div class="social-icons-nav d-flex align-items-center gap-2">
-                    <a href="#" aria-label="فيسبوك"><i class="fa-brands fa-facebook-f text-white"></i></a>
-                    <a href="#" aria-label="إنستغرام"><i class="fa-brands fa-instagram text-white"></i></a>
-                    <a href="#" aria-label="لينكدإن"><i class="fa-brands fa-linkedin-in text-white"></i></a>
-                    <a href="#" aria-label="واتساب"><i class="fab fa-whatsapp text-white"></i></a>
-                    <a href="#" aria-label="يوتيوب"><i class="fa-brands fa-youtube text-white"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f text-white "></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram text-white "></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in text-white "></i></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-whatsapp text-white "></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube text-white "></i></a>
                 </div>
-                <a href="#" class="lang-btn bg-secondary-color py-1 px-3 d-flex align-items-center gap-2 text-white">
-                    <h6>English</h6>
+                <a href="#" class="lang-btn bg-secondary-color py-1 px-3 d-flex align-items-center gap-2 text-white ">
+                    <h6>
+                        العربية
+                    </h6>
                     <picture>
-                        <img src="./assets/icons/GlobeSimple.svg" alt="تغيير اللغة">
+                        <img src="./assets/icons/GlobeSimple.svg" alt="">
                     </picture>
                 </a>
             </div>
@@ -51,40 +53,72 @@
         <!-- Secondary Nav -->
         <nav class="secondary-nav d-flex justify-content-between py-2">
             <div class="container d-flex justify-content-between">
-                <picture class="logo-img">
-                    <img src="./assets/imgaes/logo.png" alt="شعار" class="default-image-class">
-                </picture>
+                <a href="#">
+                    <picture class="logo-img">
+                        <img src="./assets/imgaes/logo.png" alt="" class=" default-image-class">
+                    </picture>
+                </a>
                 <div class="nav-buttons d-flex align-items-center gap-2">
                     <a href="#" class="main-btn">
-                        <span>قدّم الآن</span>
-                        <picture><img src="./assets/icons/Desktop.svg" alt="تقديم"></picture>
+                        <span>
+                            Apply Online
+                        </span>
+                        <picture>
+                            <img src="./assets/icons/Desktop.svg" alt="">
+                        </picture>
                     </a>
-                    <a href="#" class="main-btn fourth-btn">
-                        <span>الفروع</span>
-                        <picture><img src="./assets/icons/MapPinLineNav.svg" alt="خريطة الفروع"></picture>
+                    <a href="#" class="main-btn fourth-btn ">
+                        <span>
+                            Branches
+                        </span>
+                        <picture>
+                            <img src="./assets/icons/MapPinLineNav.svg" alt="">
+                        </picture>
                     </a>
                 </div>
             </div>
         </nav>
         <!-- Third Nav -->
         <nav class="navbar navbar-expand-lg middle-header">
-            <div class="container navbar-container d-inline-flex justify-content-between align-items-stretch">
+            <div class="container navbar-container d-inline-flex justify-content-between align-items-stretch ">
+
                 <button id="toggleButton" class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="تبديل القائمة">
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa-solid fa-bars" id="openIcon"></i>
                     <i class="fa-solid fa-xmark primary-color d-none" id="closeIcon"></i>
                 </button>
 
-                <div class="flex-grow-1 d-flex align-items-center justify-content-between">
+                <div class="flex-grow-1 d-flex align-items-center justify-content-between ">
+
                     <div class="navbar-collapse-container d-flex align-items-center justify-content-between w-100">
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mb-lg-0 custom-nav">
 
+                                <!-- About -->
                                 <li
                                     class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
                                     <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
-                                        من نحن
+                                        About Us
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </a>
+                                    <button class="toggleButtonHeader d-lg-none  px-3">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus hidden"></i>
+                                    </button>
+                                    <div class="dropdown-menu-news">
+                                        <ul>
+                                            <li><a href="/news/local">Local News</a></li>
+                                            <li><a href="/news/world">World News</a></li>
+                                            <li><a href="/news/sports">Sports</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li
+                                    class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
+                                    <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
+                                        Products & Services
                                         <i class="fa-solid fa-caret-down"></i>
                                     </a>
                                     <button class="toggleButtonHeader d-lg-none px-3">
@@ -93,68 +127,57 @@
                                     </button>
                                     <div class="dropdown-menu-news">
                                         <ul>
-                                            <li><a href="/about/vision">رؤيتنا</a></li>
-                                            <li><a href="/about/team">فريقنا</a></li>
-                                            <li><a href="/about/history">تاريخنا</a></li>
+                                            <li><a href="/news/local">Local News</a></li>
+                                            <li><a href="/news/world">World News</a></li>
+                                            <li><a href="/news/sports">Sports</a></li>
                                         </ul>
                                     </div>
                                 </li>
 
+                                <!-- News with dropdown -->
                                 <li
                                     class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
                                     <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
-                                        المنتجات والخدمات
+                                        News
                                         <i class="fa-solid fa-caret-down"></i>
                                     </a>
-                                    <button class="toggleButtonHeader d-lg-none px-3">
+                                    <button class="toggleButtonHeader d-lg-none  px-3">
                                         <i class="fa-solid fa-plus"></i>
                                         <i class="fa-solid fa-minus hidden"></i>
                                     </button>
                                     <div class="dropdown-menu-news">
                                         <ul>
-                                            <li><a href="/services/loans">القروض</a></li>
-                                            <li><a href="/services/savings">الادخار</a></li>
-                                            <li><a href="/services/support">الدعم</a></li>
+                                            <li><a href="/news/local">Local News</a></li>
+                                            <li><a href="/news/world">World News</a></li>
+                                            <li><a href="/news/sports">Sports</a></li>
                                         </ul>
                                     </div>
                                 </li>
 
-                                <li
-                                    class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
-                                    <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
-                                        الأخبار
-                                        <i class="fa-solid fa-caret-down"></i>
-                                    </a>
-                                    <button class="toggleButtonHeader d-lg-none px-3">
-                                        <i class="fa-solid fa-plus"></i>
-                                        <i class="fa-solid fa-minus hidden"></i>
-                                    </button>
-                                    <div class="dropdown-menu-news">
-                                        <ul>
-                                            <li><a href="/news/local">محلية</a></li>
-                                            <li><a href="/news/world">عالمية</a></li>
-                                            <li><a href="/news/sports">رياضة</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-
+                                <!-- Contact -->
                                 <li class="nav-item container">
-                                    <a href="/contact" class="nav-link small-screen p-title">اتصل بنا</a>
+                                    <a href="/contact" class="nav-link small-screen p-title">Contact Us</a>
                                 </li>
 
+                                <!-- Preferences -->
                                 <li class="nav-item container">
-                                    <a href="/preferences" class="nav-link small-screen p-title">تفضيلاتي</a>
+                                    <a href="/preferences" class="nav-link small-screen p-title">My Preferences</a>
                                 </li>
+
                             </ul>
                         </div>
                         <a href="#" class="d-flex align-items-center gap-2 search-btn text-black-color">
-                            <span>بحث</span>
-                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <span>
+                                Search
+                            </span>
+                            <i class="fa-solid fa-magnifying-glass "></i>
                         </a>
                     </div>
-                    <picture class="logo-img">
-                        <img src="./assets/imgaes/logo.png" alt="الشعار" class="default-image-class mw-100">
-                    </picture>
+                    <a href="#">
+                        <picture class="logo-img">
+                            <img src="./assets/imgaes/logo.png" alt="" class=" default-image-class">
+                        </picture>
+                    </a>
                 </div>
             </div>
         </nav>
@@ -162,8 +185,9 @@
         <div class="search-nav-container overflow-hidden">
             <div class="searchBarOpen">
                 <form class="searchBarOpen--input" id="custom-search-form">
-                    <div class="d-flex align-items-center gap-2">
-                        <input type="text" name="title" id="search-title-input" required placeholder="ابحث هنا"
+
+                    <div class="d-flex align-items-centr gap-2">
+                        <input type="text" name="title" id="search-title-input" required placeholder="Search Here"
                             data-url-name="title" />
                         <button>
                             <i class="fa-solid fa-magnifying-glass text-white"></i>
@@ -182,9 +206,9 @@
                         <div class="col-12 col-lg-6">
                             <div
                                 class="d-flex justify-content-center align-items-center align-items-lg-start flex-column gap-3">
-                                <h2 class="text-primary-color">طلب التوظيف</h2>
-                                <p class="text-black-color">لوريم إيبسوم هو ببساطة نص شكلي يستخدم في صناعة الطباعة
-                                    والتنضيد. كان نص لوريم إيبسوم المعيار الصناعي الدائم.</p>
+                                <h2 class="text-primary-color">Corporate Social Responsibility</h2>
+                                <p class="text-black-color">Lorem Ipsum is simply dummy text of the printing and
+                                    typesetting industry standard dummy text ever.</p>
                             </div>
                         </div>
                         <div class="col-12 col-lg-6">
@@ -197,138 +221,170 @@
                 </div>
             </div>
         </section>
-        <!-- Start Job Application step 4 Section -->
-        <section class="application-step-4-section">
+        <!-- Start News -->
+        <section class="news-section">
             <div class="container">
-                <div class="content-section-container">
-                    <div class="inputs-form">
-                        <h6 class="mb-4 text-primary-color text-center">يرجى ملء طلب التوظيف</h6>
-                        <p class="text-center">يرجى إدخال جميع المعلومات الشخصية ذات الصلة في الحقول أدناه.</p>
-                        <!-- paginiation for steps is here -->
-
-                        <form action="" class="">
-                            <div class="d-flex flex-column w-100 align-items-center  justify-content-center ">
-                                <div class="row w-100 px-0 g-4 pt-3 pb-5">
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="name">الاسم<span class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="name" id="name"
-                                            placeholder=" اكتب هنا " />
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 col-xl-3  mb-4">
+                        <div class="media-card main-border-op-20 radius-5">
+                            <picture>
+                                <img src=" ./assets/imgaes/News image/Rectangle 20337.png" alt=""
+                                    class="default-image-class">
+                            </picture>
+                            <div class="media-card-content-container p-3">
+                                <div class="media-card-content h-100 ">
+                                    <div class="card-date">
+                                        Dec 20, 2024
                                     </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="phone-number-input">رقم الهاتف<span class="red-astrik">*</span>
-                                        </label>
-                                        <input class="form-control " type="text" name="phone-number-input"
-                                            id="phone-number-input" placeholder=" xxx xxx xxx ">
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="position-title">المنصب/المسمى الوظيفي<span
-                                                class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="position-title"
-                                            id="position-title" placeholder=" اكتب هنا " />
-                                    </div>
-                                    <div class="col-lg-3 col-md-4 col-12 d-flex flex-column gap-4">
-                                        <button class="secondary-btn w-100 d-flex justify-content-center">
-                                            <picture><img src="./assets/icons/Plus.svg" alt=""></picture>
-                                            <span>إضافة المزيد</span>
-                                        </button>
-                                        <div class="g-recaptcha m-0" data-theme="light" data-sitekey="XXXXXXXXXXXXX">
-                                        </div>
-                                        <button class="main-btn w-100 d-flex justify-content-center">
-                                            <span>التالي</span>
-                                        </button>
-                                    </div>
+                                    <h3 class="only-3-lines">
+                                        Ahli Microfinance Company and SOS Children's Villages Organize Iftar Gathering
+                                    </h3>
+                                    <p class="only-3-lines">
+                                        Ahli Microfinance Company and SOS Children's Villages Organize Iftar Gathering
+                                    </p>
+                                </div>
+                                <div class="media-card-buttons d-flex align-items-center gap-2">
+                                    <a href="#" class="main-btn">
+                                        <span>Read More</span>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                    <a href="#" class="media-share-button">
+                                        <picture class="d-flex bg-secondary-color rounded-circle ">
+                                            <img src="./assets/icons/ShareNetwork.svg" alt="">
+                                        </picture>
+                                    </a>
                                 </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Job Application step 4 Section -->
+        <!-- End News -->
+        <!-- Start Pagination -->
+        <div class="pagination-wrapper ">
+            <div class="container">
+                <nav aria-label="Page">
+                    <ul class="pagination justify-content-center  pagination-container mb-0">
+                        <li class="page-item">
+                            <a class="page-link rounded-circle page-disabled" href="#" aria-label="Previous">
+                                <i class="fa-solid fa-angle-left"></i>
+
+                            </a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">...</a></li>
+                        <li class="page-item"><a class="page-link" href="#">15</a></li>
+                        <li class="page-item">
+                            <a class="page-link rounded-circle" href="#" aria-label="Next">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- End Pagination -->
         <!-- Start Footer -->
         <footer class="main-footer-container">
             <div class="container footer-section">
                 <div class="footer-item">
                     <div class="footer-item-header">
-                        <h3 class="text-primary-color">عن الشركة</h3>
+                        <h3 class="text-primary-color">About AMC</h3>
                         <button class="toggleButton mobile-responsive" data-target="about">
                             <i class="fa-solid fa-plus"></i>
                             <i class="fa-solid fa-minus" style="display: none"></i>
                         </button>
                     </div>
                     <ul id="about">
-                        <li><a href=""> رؤيتنا </a></li>
-                        <li><a href=""> مجلس الإدارة </a></li>
-                        <li><a href=""> الفريق الإداري </a></li>
-                        <li><a href=""> المنتجات والخدمات </a></li>
-                        <li><a href=""> قائمة الأسعار والرسوم </a></li>
-                        <li><a href=""> الفروع </a></li>
-                        <li><a href=""> الحوكمة المؤسسية </a></li>
-                        <li><a href=""> تعليمات البنك المركزي الأردني </a></li>
+                        <li>
+                            <a href=""> Our Vision</a>
+                        </li>
+                        <li><a href=""> Board of Directors </a></li>
+                        <li><a href="">Management Team </a></li>
+                        <li><a href=""> Products and Services </a></li>
+                        <li><a href="">Pricing and Fees List </a></li>
+                        <li><a href="">Branches</a></li>
+                        <li><a href="">Corporate Governance</a></li>
+                        <li><a href="">Central Bank of Jordan
+                                Instructions </a></li>
                     </ul>
                 </div>
                 <div class="footer-item">
                     <div class="footer-item-header">
-                        <h3 class="text-primary-color">المركز الإعلامي</h3>
-                        <button class="toggleButton mobile-responsive" data-target="media">
+                        <h3 class="text-primary-color">Media Center</h3>
+                        <button class="toggleButton mobile-responsive" data-target="about">
                             <i class="fa-solid fa-plus"></i>
                             <i class="fa-solid fa-minus" style="display: none"></i>
                         </button>
                     </div>
-                    <ul id="media">
-                        <li><a href=""> الأخبار </a></li>
-                        <li><a href=""> آراء العملاء </a></li>
-                        <li><a href=""> معرض الصور </a></li>
-                        <li><a href=""> معرض الفيديو </a></li>
-                        <li><a href=""> المسؤولية المجتمعية </a></li>
-                        <li><a href=""> الخدمات غير المالية </a></li>
+                    <ul id="about">
+                        <li>
+                            <a href=""> News</a>
+                        </li>
+                        <li><a href=""> Testimonials</a></li>
+                        <li><a href=""> Photo Gallery </a></li>
+                        <li>
+                            <a href=""> Video Gallery</a>
+                        </li>
+                        <li><a href=""> Corporate Social Responsibility</a></li>
+                        <li>
+                            <a href=""> Non Financial Services</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="footer-item">
                     <div class="footer-item-header">
-                        <h3 class="text-primary-color">روابط مفيدة</h3>
-                        <button class="toggleButton mobile-responsive" data-target="links">
+                        <h3 class="text-primary-color">Useful Links</h3>
+                        <button class="toggleButton mobile-responsive" data-target="about">
                             <i class="fa-solid fa-plus"></i>
                             <i class="fa-solid fa-minus" style="display: none"></i>
                         </button>
                     </div>
-                    <ul id="links">
-                        <li><a href=""> الأسئلة الشائعة </a></li>
-                        <li><a href=""> قنوات شكاوى العملاء </a></li>
-                        <li><a href=""> تقديم شكوى </a></li>
-                        <li><a href=""> الوظائف الشاغرة </a></li>
-                        <li><a href=""> طلب توظيف </a></li>
-                        <li><a href=""> خريطة الموقع </a></li>
-                        <li><a href=""> الحملات التسويقية والمكافآت </a></li>
+                    <ul id="about">
+                        <li>
+                            <a href=""> FAQs </a>
+                        </li>
+                        <li><a href="">Customer Complaints Channels </a></li>
+                        <li><a href=""> Apply a Complaint</a></li>
+                        <li><a href=""> Vacancies</a></li>
+                        <li><a href=""> Job Application</a></li>
+                        <li><a href=""> Site Map</a></li>
+                        <li><a href=""> Marketing campaigns
+                                and rearwards</a></li>
                     </ul>
                 </div>
                 <div class="footer-item">
                     <div class="footer-item-header">
-                        <h3 class="text-primary-color">تحميل التطبيق</h3>
-                        <button class="toggleButton mobile-responsive" data-target="app">
+                        <h3 class="text-primary-color">Download Application</h3>
+                        <button class="toggleButton mobile-responsive" data-target="about">
                             <i class="fa-solid fa-plus"></i>
                             <i class="fa-solid fa-minus" style="display: none"></i>
                         </button>
                     </div>
-                    <ul id="app">
+                    <ul id="about">
                         <li>
                             <a href="" class="d-flex align-items-center gap-1 app-link">
                                 <i class="fa-brands fa-apple"></i>
-                                <p>متجر آبل</p>
+                                <p>App Store</p>
                             </a>
                         </li>
                         <li>
                             <a href="" class="d-flex align-items-center gap-1 app-link">
                                 <i class="fa-brands fa-google-play"></i>
-                                <p>متجر جوجل</p>
+                                <p>App Store</p>
                             </a>
                         </li>
                         <li>
                             <div class="qr-scan mt-4">
-                                <h3 class="text-primary-color">أو امسح الباركود:</h3>
+                                <h3 class="text-primary-color">Or Scan The Barcode:</h3>
                                 <a href="" class="mt-3 d-flex ">
                                     <picture>
-                                        <img src="./assets/icons/qr-code 2.svg" alt="رمز QR" />
+                                        <img src="./assets/icons/qr-code 2.svg" alt="" />
                                     </picture>
                                 </a>
                             </div>
@@ -337,92 +393,95 @@
                 </div>
                 <div class="footer-item">
                     <div class="footer-item-header">
-                        <h3 class="text-primary-color">ابقَ على تواصل</h3>
-                        <button class="toggleButton mobile-responsive" data-target="contact">
+                        <h3 class="text-primary-color">Stay In Touch</h3>
+                        <button class="toggleButton mobile-responsive" data-target="about">
                             <i class="fa-solid fa-plus"></i>
                             <i class="fa-solid fa-minus" style="display: none"></i>
                         </button>
                     </div>
-                    <ul id="contact">
+                    <ul id="about">
                         <li>
                             <a href="" class="d-flex align-items-center gap-1 flex-wrap">
-                                <p>اتصل:</p>
+                                <p>Call:</p>
                                 <span class="text-decoration-underline" dir="ltr">+962 79 7 530530</span>
                             </a>
                         </li>
                         <li>
                             <a href="" class="d-flex align-items-center gap-1 flex-wrap">
-                                <p>البريد الإلكتروني:</p>
+                                <p>Email:</p>
                                 <p>amc@amc.com.jo</p>
                             </a>
                         </li>
                         <li>
                             <a href="" class="d-flex align-items-center gap-1 flex-wrap">
-                                <p>ص.ب:</p>
-                                <p>23543 عمّان 11115 الأردن</p>
+                                <p>P.O. Box:</p>
+                                <p>23543 Amman 11115 Jordan</p>
                             </a>
                         </li>
                         <li class="d-flex justify-content-between gap-2">
-                            <p>الموقع:</p>
+                            <p>Locations:</p>
                             <div class="location-links d-flex flex-column gap-2">
                                 <a href="" class="d-flex align-items-center gap-1 justify-content-between ">
                                     <p>
-                                        شارع الملك عبدالله الثاني،
-                                        عمّان – الجندويل، مبنى رقم 449
+                                        King Abdullah II St.,
+                                        Amman, Jandaweel, building #449
                                         <picture>
-                                            <img src="./assets/icons/directions.svg" alt="الاتجاهات" />
+                                            <img src="./assets/icons/directions.svg" alt="" />
                                         </picture>
                                     </p>
+
                                 </a>
                             </div>
                         </li>
                         <li class="footer-stay-in-touch mt-3">
-                            <a href=""><i class="fa-brands text-white fa-facebook-f"></i></a>
-                            <a href=""><i class="fa-brands text-white fa-youtube"></i></a>
-                            <a href=""><i class="fa-brands text-white fa-linkedin-in"></i></a>
-                            <a href=""><i class="fa-brands text-white fa-instagram"></i></a>
-                            <a href=""><i class="fa-brands text-white fa-whatsapp"></i></a>
+                            <a href="">
+                                <i class="fa-brands text-white fa-facebook-f"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands text-white fa-youtube"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands text-white fa-linkedin-in"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands text-white fa-instagram"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands text-white fa-whatsapp"></i>
+                            </a>
                         </li>
                     </ul>
+
+
                 </div>
             </div>
             <div
                 class="footer-chat container my-3 d-flex justify-content-between align-items-center flex-column flex-lg-row gap-3">
                 <div class="footer-chat-content d-flex align-items-center gap-2">
-                    <p>شركة الأهلي للتمويل الأصغر تحت إشراف</p>
+                    <p>Ahli Microfinance Company is under the supervision</p>
                     <picture>
-                        <img src="./assets/imgaes/cbj-logo 1.png" alt="شعار البنك المركزي الأردني">
+                        <img src="./assets/imgaes/cbj-logo 1.png" alt="">
                     </picture>
                 </div>
                 <a href="#" class="footer-chat-whatsapp d-flex align-items-center gap-2 ">
                     <i class="fa-brands text-white fa-whatsapp"></i>
-                    <p class="text-white">تحدث معنا عبر واتساب</p>
+                    <p class="text-white">Chat with us</p>
                 </a>
             </div>
             <div class="footer-copyright-container m-0 ">
                 <div class="footer-copyright-container-centered container">
                     <div class="">
-                        <p>© 2025 تم التطوير بواسطة dot jo. جميع الحقوق محفوظة.</p>
+                        <p>© 2025 Developed by dot jo. All rights reserved.</p>
                     </div>
                     <div class="">
-                        <a href="">سياسة الخصوصية</a>
-                        <a href=""> الشروط والأحكام</a>
+                        <a href="">Privacy Policy</a>
+                        <a href=""> Terms and Conditions</a>
                     </div>
                 </div>
             </div>
         </footer>
         <!-- End Footer -->
     </main>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script>
-        const input = document.querySelector("#phone-number-input");
-        window.intlTelInput(input, {
-            initialCountry: "jo",
-            strictMode: true,
-            separateDialCode: true,
-            loadUtils: () => import("/intl-tel-input/js/utils.js?1743167482095") // for formatting/placeholders etc
-        });
-    </script>
 </body>
 
 </html>

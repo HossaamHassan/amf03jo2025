@@ -143,7 +143,9 @@ h6 {
 h1 {}
 
 
-h2 {}
+h2 {
+    font-size: 1.4rem;
+}
 
 
 h3 {
@@ -472,6 +474,10 @@ img {
     transition: transform .3s ease;
 }
 
+.arabic-version .third-btn:hover i {
+    transform: rotate(45deg);
+}
+
 .apply-btn:hover {
     text-decoration: underline;
     background-color: inherit;
@@ -715,6 +721,15 @@ img {
 }
 
 /* Pagination */
+/* Floating chat */
+.floating-chat {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    inset-inline-end: 30px;
+    bottom: 20px;
+}
+
 /* Hero Section */
 .hero-section {
     position: relative;
