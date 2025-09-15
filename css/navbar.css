@@ -1087,7 +1087,7 @@ a:hover .user-icon-black {
 }
 
 .searchBarOpen--input input {
-    padding: 0 .8rem;
+    padding: 0 .8rem !important;
     caret-color: #fff;
     border-radius: 50px;
     border: none;
@@ -1143,6 +1143,11 @@ a:hover .user-icon-black {
 
 .searchBarOpen--closeBtn:hover {
     transform: scale(1.2);
+}
+
+.navbar {
+    box-shadow: 0px 15px 20px 0px #B6B6B640;
+
 }
 
 .navbar .logo-img {
