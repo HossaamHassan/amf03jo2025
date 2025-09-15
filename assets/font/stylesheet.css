@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('GraphikArabic-Bold.eot');
+    src: url('GraphikArabic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GraphikArabic-Bold.woff2') format('woff2'),
+        url('GraphikArabic-Bold.woff') format('woff'),
+        url('GraphikArabic-Bold.ttf') format('truetype'),
+        url('GraphikArabic-Bold.svg#GraphikArabic-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('GraphikArabic-ExtraLight.eot');
+    src: url('GraphikArabic-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('GraphikArabic-ExtraLight.woff2') format('woff2'),
+        url('GraphikArabic-ExtraLight.woff') format('woff'),
+        url('GraphikArabic-ExtraLight.ttf') format('truetype'),
+        url('GraphikArabic-ExtraLight.svg#GraphikArabic-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('GraphikArabic-Black.eot');
+    src: url('GraphikArabic-Black.eot?#iefix') format('embedded-opentype'),
+        url('GraphikArabic-Black.woff2') format('woff2'),
+        url('GraphikArabic-Black.woff') format('woff'),
+        url('GraphikArabic-Black.ttf') format('truetype'),
+        url('GraphikArabic-Black.svg#GraphikArabic-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('GraphikArabic-Light.eot');
+    src: url('GraphikArabic-Light.eot?#iefix') format('embedded-opentype'),
+        url('GraphikArabic-Light.woff2') format('woff2'),
+        url('GraphikArabic-Light.woff') format('woff'),
+        url('GraphikArabic-Light.ttf') format('truetype'),
+        url('GraphikArabic-Light.svg#GraphikArabic-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('GraphikArabic-Medium.eot');
+    src: url('GraphikArabic-Medium.eot?#iefix') format('embedded-opentype'),
+        url('GraphikArabic-Medium.woff2') format('woff2'),
+        url('GraphikArabic-Medium.woff') format('woff'),
+        url('GraphikArabic-Medium.ttf') format('truetype'),
+        url('GraphikArabic-Medium.svg#GraphikArabic-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic Super';
+    src: url('GraphikArabic-Super.eot');
+    src: url('GraphikArabic-Super.eot?#iefix') format('embedded-opentype'),
+        url('GraphikArabic-Super.woff2') format('woff2'),
+        url('GraphikArabic-Super.woff') format('woff'),
+        url('GraphikArabic-Super.ttf') format('truetype'),
+        url('GraphikArabic-Super.svg#GraphikArabic-Super') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('GraphikArabic-SemiBold.eot');
+    src: url('GraphikArabic-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('GraphikArabic-SemiBold.woff2') format('woff2'),
+        url('GraphikArabic-SemiBold.woff') format('woff'),
+        url('GraphikArabic-SemiBold.ttf') format('truetype'),
+        url('GraphikArabic-SemiBold.svg#GraphikArabic-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('GraphikArabic-Thin.eot');
+    src: url('GraphikArabic-Thin.eot?#iefix') format('embedded-opentype'),
+        url('GraphikArabic-Thin.woff2') format('woff2'),
+        url('GraphikArabic-Thin.woff') format('woff'),
+        url('GraphikArabic-Thin.ttf') format('truetype'),
+        url('GraphikArabic-Thin.svg#GraphikArabic-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Graphik Arabic';
+    src: url('GraphikArabic-Regular.eot');
+    src: url('GraphikArabic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('GraphikArabic-Regular.woff2') format('woff2'),
+        url('GraphikArabic-Regular.woff') format('woff'),
+        url('GraphikArabic-Regular.ttf') format('truetype'),
+        url('GraphikArabic-Regular.svg#GraphikArabic-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
