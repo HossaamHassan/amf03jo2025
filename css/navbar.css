@@ -836,7 +836,7 @@ input::placeholder {
     }
 
     .toggleButtonHeader i {
-        color: var(--secondary-color);
+        color: var(--black-color);
         font-size: 1rem;
     }
 
@@ -1024,8 +1024,7 @@ a:hover .user-icon-black {
     }
 
     .dropdown-menu-news ul li a {
-        color: var(--secondary-color);
-        font-weight: 800;
+        color: var(--black-color);
     }
 
 }
