@@ -262,7 +262,12 @@
 
 .navbar .navbar-container {
     border-top: 1px solid rgb(45 41 38 / 20%);
-    padding-inline: 0;
+}
+
+@media (min-width: 992px) {
+    .navbar .navbar-container {
+        padding-inline: 0;
+    }
 }
 
 .navbar ul li {
