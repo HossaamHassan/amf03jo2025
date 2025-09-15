@@ -129,7 +129,7 @@
     padding-inline: 0;
     cursor: pointer;
     border: 1px solid var(--main-color);
-    border-radius: 99999px;
+    border-radius: 5px;
     width: 50px;
     height: 50px;
     display: flex;
@@ -187,12 +187,13 @@ body.arabic-version .hero-arrows-next {
 }
 
 .hero-md-section .slick-dots li.slick-active button:before {
-    color: var(--secondary-color);
+    color: var(--primary-color);
+    opacity: .3;
 }
 
 .hero-md-section .slick-dots li button:before {
-    color: #969696;
-    font-size: 14px;
+    color: var(--primary-color);
+    font-size: 40px;
     opacity: 1;
 }
 
@@ -203,7 +204,6 @@ body.arabic-version .hero-arrows-next {
 @media (max-width: 991.88889px) {
     .hero-section-slider {
         height: auto;
-        padding-top: 8rem;
     }
 
     .hero-md-section {
@@ -246,6 +246,15 @@ body.arabic-version .hero-arrows-next {
 
     .hero-content-box-container .shape-slider {
         display: none;
+    }
+
+    .hero-content-box-container picture {
+        display: none;
+    }
+
+    .hero-slide .image-container-slider {
+        position: static;
+        transform: unset;
     }
 }
 
@@ -342,7 +351,8 @@ body.arabic-version .hero-arrows-next {
 /* Start Our Impact */
 @media (min-width: 992px) {
     .our-impact-section-container {
-        padding-block: 18rem;
+        padding-top: 18rem;
+        padding-bottom: 12rem;
     }
 
     .our-impact-section .impact-cards-container .start-impact-card {
@@ -400,11 +410,13 @@ body.arabic-version .hero-arrows-next {
 
     .our-impact-section .impact-cards-container .start-impact-card .impact-card-content {
         top: 25% !important;
+
     }
 
     .our-impact-section .impact-cards-container .end-impact-card .impact-card-content {
         top: 75% !important;
     }
+
 }
 
 @media (max-width: 575.98px) {
@@ -416,10 +428,12 @@ body.arabic-version .hero-arrows-next {
 
     .our-impact-section .impact-cards-container .start-impact-card .impact-card-content {
         top: 25% !important;
+        inset-inline-start: 35%;
     }
 
     .our-impact-section .impact-cards-container .end-impact-card .impact-card-content {
         top: 75% !important;
+        inset-inline-start: 70%;
     }
 }
 
@@ -427,6 +441,26 @@ body.arabic-version .hero-arrows-next {
 
 
 /* Custom Select Dropdown */
+.calculate-section {
+    background-color: #F2FAFA;
+}
+
+.loan-calculator .side-input {
+    position: relative;
+    flex: 1;
+}
+
+.loan-calculator .side-input input {
+    padding: 10px;
+}
+
+.loan-calculator .side-input span {
+    position: absolute;
+    top: -14px;
+    inset-inline-start: 20px;
+    background: #F2FAFA;
+}
+
 .loan-calculator .form-select,
 .loan-calculator .form-control {
     background-color: inherit;
@@ -450,7 +484,6 @@ body.arabic-version .hero-arrows-next {
 /* Range Slider Styles */
 .range-wrapper {
     position: relative;
-    margin: 30px 0;
     flex: 4;
 }
 
@@ -503,7 +536,7 @@ body.arabic-version .hero-arrows-next {
     height: 6px;
     background: var(--primary-color);
     border-radius: 5px;
-    top: 31%;
+    top: 27%;
     transform: translateY(-50%);
     left: 0;
     pointer-events: none;
@@ -516,6 +549,7 @@ body.arabic-version .hero-arrows-next {
     justify-content: space-between;
     font-size: 14px;
     color: var(--black-color);
+    margin-bottom: .5rem;
 }
 
 /* Floating Value Display */
@@ -552,6 +586,14 @@ body.arabic-version .hero-arrows-next {
 }
 
 /* Responsive */
+@media (max-width: 767.98px) {
+
+    .range-wrapper,
+    .side-input {
+        width: 100%;
+    }
+}
+
 @media (max-width: 576px) {
     .loan-calculator {
         padding: 25px;

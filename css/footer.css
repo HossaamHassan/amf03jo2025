@@ -2,6 +2,7 @@
     position: relative;
     background: #fff !important;
     margin-top: 4rem;
+    overflow: hidden;
 }
 
 .main-footer-container p {
@@ -118,7 +119,7 @@
 
 .main-footer-container .footer-section ul {
     padding-block: 0.75rem;
-    padding-left: 0;
+    padding-inline: 0;
 }
 
 .main-footer-container .footer-item .footer-location-text p {

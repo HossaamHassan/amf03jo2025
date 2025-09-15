@@ -29,15 +29,16 @@
 
 <body>
     <main id="home">
+        <!-- Start Navbar -->
         <!-- Start Top Bar -->
         <nav class="top-bar  bg-primary-color">
             <div class="container d-flex align-items-center justify-content-between ">
                 <div class="social-icons-nav d-flex align-items-center gap-2">
-                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in text-white "></i></i></a>
-                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube text-white "></i></a>
-                    <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter text-white "></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram text-white "></i></a>
                     <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f text-white "></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram text-white "></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in text-white "></i></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-whatsapp text-white "></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube text-white "></i></a>
                 </div>
                 <a href="#" class="lang-btn bg-secondary-color py-1 px-3 d-flex align-items-center gap-2 text-white ">
                     <h6>
@@ -49,8 +50,7 @@
                 </a>
             </div>
         </nav>
-        <!-- End Top Bar -->
-        <!-- Start Navbar -->
+        <!-- Secondary Nav -->
         <nav class="secondary-nav d-flex justify-content-between py-2">
             <div class="container d-flex justify-content-between">
                 <picture class="logo-img">
@@ -76,6 +76,122 @@
                 </div>
             </div>
         </nav>
+        <!-- Third Nav -->
+        <nav class="navbar navbar-expand-lg middle-header">
+            <div class="container navbar-container d-inline-flex justify-content-between align-items-stretch ">
+
+                <button id="toggleButton" class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" id="openIcon"></i>
+                    <i class="fa-solid fa-xmark primary-color d-none" id="closeIcon"></i>
+                </button>
+
+                <div class="flex-grow-1 d-flex align-items-center justify-content-between ">
+
+                    <div class="navbar-collapse-container d-flex align-items-center justify-content-between w-100">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-lg-0 custom-nav">
+
+                                <!-- About -->
+                                <li
+                                    class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
+                                    <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
+                                        About Us
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </a>
+                                    <button class="toggleButtonHeader d-lg-none  px-3">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus hidden"></i>
+                                    </button>
+                                    <div class="dropdown-menu-news">
+                                        <ul>
+                                            <li><a href="/news/local">Local News</a></li>
+                                            <li><a href="/news/world">World News</a></li>
+                                            <li><a href="/news/sports">Sports</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li
+                                    class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
+                                    <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
+                                        Products & Services
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </a>
+                                    <button class="toggleButtonHeader d-lg-none px-3">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus hidden"></i>
+                                    </button>
+                                    <div class="dropdown-menu-news">
+                                        <ul>
+                                            <li><a href="/news/local">Local News</a></li>
+                                            <li><a href="/news/world">World News</a></li>
+                                            <li><a href="/news/sports">Sports</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <!-- News with dropdown -->
+                                <li
+                                    class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
+                                    <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
+                                        News
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </a>
+                                    <button class="toggleButtonHeader d-lg-none  px-3">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus hidden"></i>
+                                    </button>
+                                    <div class="dropdown-menu-news">
+                                        <ul>
+                                            <li><a href="/news/local">Local News</a></li>
+                                            <li><a href="/news/world">World News</a></li>
+                                            <li><a href="/news/sports">Sports</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <!-- Contact -->
+                                <li class="nav-item">
+                                    <a href="/contact" class="nav-link small-screen p-title">Contact Us</a>
+                                </li>
+
+                                <!-- Preferences -->
+                                <li class="nav-item">
+                                    <a href="/preferences" class="nav-link small-screen p-title">My Preferences</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <a href="#" class="d-flex align-items-center gap-2 search-btn text-black-color">
+                            <span>
+                                Search
+                            </span>
+                            <i class="fa-solid fa-magnifying-glass "></i>
+                        </a>
+                    </div>
+                    <picture class="logo-img">
+                        <img src="./assets/imgaes/logo.png" alt="" class=" default-image-class mw-100">
+                    </picture>
+                </div>
+            </div>
+        </nav>
+        <div class="search-nav-container overflow-hidden">
+            <div class="searchBarOpen">
+                <form class="searchBarOpen--input" id="custom-search-form">
+
+                    <div class="d-flex align-items-centr gap-2">
+                        <input type="text" name="title" id="search-title-input" required placeholder="Search Here"
+                            data-url-name="title" />
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass text-white"></i>
+                        </button>
+                    </div>
+                </form>
+                <span class="searchBarOpen--closeBtn"><i class="fa-solid fa-x"></i></span>
+            </div>
+        </div>
         <!-- End Navbar -->
         <!-- Start Home Slider -->
         <section class="hero-section-slider">
@@ -159,6 +275,32 @@
         </section>
         <section class="hero-section-slider hero-md-section">
             <div class="home-hero-md-slider">
+                <div class="hero-slide">
+                    <div class="container hero-content-box-container position-relative">
+                        <div class="hero-content-box hero-content-box-mobile">
+                            <p>
+                                "Intaji" a new loan released Empowering MSEs
+                            </p>
+                            <h2 class="mb-3 only-2-lines">
+                                Expand your business with a financing up to 25,000 JODs
+                            </h2>
+                            <p class="only-3-lines">
+                                Ahli Microfinance Company seeks to provide the best financial and consulting services to
+                                owners of micro and small businesses for different groups
+                            </p>
+                            <div class="d-flex ">
+                                <a href="#" class="third-btn">
+                                    Discover More
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                                <a href="#" class="third-btn apply-btn border-0">
+                                    Apply Now
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="hero-slide">
                     <div class="container hero-content-box-container position-relative">
                         <div class="hero-content-box hero-content-box-mobile">
@@ -442,7 +584,7 @@
         </section>
         <!-- End Services Section -->
         <!-- Start Calculate Section -->
-        <section class="calculate-section bg-primary-color-op-10 py-5">
+        <section class="calculate-section py-5">
             <div class="container">
                 <h1 class="section-title text-secondary-color mb-4">
                     Calculate your loan
@@ -491,7 +633,8 @@
                                     <!-- Loan Amount -->
                                     <div class="mb-3">
                                         <label class="form-label">Loan Amount<span>*</span></label>
-                                        <div class="loan-form-container d-flex align-items-center gap-2">
+                                        <div
+                                            class="loan-form-container d-flex align-items-center gap-2 flex-column flex-md-row">
                                             <div class="range-wrapper">
                                                 <div class="range-progress" id="amountProgress"></div>
                                                 <div class="value-display" id="amountValue">12,000 JOD</div>
@@ -514,23 +657,27 @@
                                     <!-- Number of months -->
                                     <div class="mb-3">
                                         <label class="form-label">Number of months<span>*</span></label>
+                                        <div
+                                            class="loan-form-container d-flex align-items-center gap-2 flex-column flex-md-row">
+                                            <!-- Range Slider -->
+                                            <div class="range-wrapper">
 
-                                        <!-- Side Input -->
-                                        <div class="side-input">
-                                            <span>Months</span>
-                                            <input type="text" id="monthsInput" value="36" />
-                                        </div>
-
-                                        <!-- Range Slider -->
-                                        <div class="range-wrapper">
-                                            <div class="range-progress" id="monthsProgress"></div>
-                                            <div class="value-display" id="monthsValue">36 Months</div>
-                                            <input type="range" class="range-slider" id="monthsSlider" min="1" max="60"
-                                                value="36" step="1">
-                                            <div class="range-labels">
-                                                <span>1 Month</span>
-                                                <span>60 Months</span>
+                                                <div class="range-progress" id="monthsProgress"></div>
+                                                <div class="value-display" id="monthsValue">36 Months</div>
+                                                <input type="range" class="range-slider" id="monthsSlider" min="1"
+                                                    max="60" value="36" step="1">
+                                                <div class="range-labels">
+                                                    <span>1 Month</span>
+                                                    <span>60 Months</span>
+                                                </div>
                                             </div>
+                                            <!-- Side Input -->
+                                            <div class="side-input">
+                                                <span>Months</span>
+                                                <input class="form-control" type="text" id="monthsInput" value="36" />
+                                            </div>
+
+
                                         </div>
                                     </div>
                                 </div>
@@ -556,36 +703,33 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 mb-4 mb-lg-0">
-                                <div
-                                    class="calculate-card d-flex align-items-center justify-content-center flex-column  bg-yellow-color py-5 radius-10">
-                                    <h1 class="text-white">
-                                        545.51 JD
-                                    </h1>
-                                    <h3 class="text-white">
-                                        Monthly Payment
-                                    </h3>
+                                <div class="calculate-card text-center   bg-yellow-color py-5 radius-5 h-100">
+                                    <h4 class="text-white">
+                                        7590.24 JD
+                                    </h4>
+                                    <p class="text-white">
+                                        Total Interest
+                                    </p>
                                 </div>
                             </div>
                             <div class="col-lg-4 mb-4 mb-lg-0">
-                                <div
-                                    class="calculate-card d-flex align-items-center justify-content-center flex-column  bg-purple-color py-5 radius-10">
-                                    <h1 class="text-white">
-                                        545.51 JD
-                                    </h1>
-                                    <h3 class="text-white">
-                                        Monthly Payment
-                                    </h3>
+                                <div class="calculate-card text-center   bg-purple-color py-5 radius-5 h-100">
+                                    <h4 class="text-white">
+                                        19638.24 JD
+                                    </h4>
+                                    <hp class="text-white">
+                                        Total Payments
+                                    </hp>
                                 </div>
                             </div>
                             <div class="col-lg-4 mb-4 mb-lg-0">
-                                <div
-                                    class="calculate-card d-flex align-items-center justify-content-center flex-column  bg-cyan-color py-5 radius-10">
-                                    <h1 class="text-white">
-                                        545.51 JD
-                                    </h1>
-                                    <h3 class="text-white">
-                                        Monthly Payment
-                                    </h3>
+                                <div class="calculate-card text-center   bg-cyan-color py-5 radius-5 h-100">
+                                    <h4 class="text-white">
+                                        36
+                                    </h4>
+                                    <p class="text-white">
+                                        Number of Payments
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -595,7 +739,7 @@
         </section>
         <!-- End Calculate Section -->
         <!-- Start Out Impact -->
-        <section class="our-impact-section my-5">
+        <section class="our-impact-section my-5 overflow-hidden ">
             <div class="container">
                 <h1 class="sectio-title text-secondary-color">
                     Our Impact
@@ -846,26 +990,20 @@
                     <ul id="about">
                         <li>
                             <a href="" class="d-flex align-items-center gap-1 flex-wrap">
-                                <p>Phone:</p>
-                                <span class="text-decoration-underline" dir="ltr">+962 6 55 21 230</span>
+                                <p>Call:</p>
+                                <span class="text-decoration-underline" dir="ltr">+962 79 7 530530</span>
                             </a>
                         </li>
                         <li>
                             <a href="" class="d-flex align-items-center gap-1 flex-wrap">
                                 <p>Email:</p>
-                                <p>info@example.com</p>
+                                <p>amc@amc.com.jo</p>
                             </a>
                         </li>
                         <li>
                             <a href="" class="d-flex align-items-center gap-1 flex-wrap">
                                 <p>PO Box: 123 Amman,</p>
-                                <p>293893 Jordan</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="" class="d-flex align-items-center gap-1 flex-wrap">
-                                <p>Fax:</p>
-                                <span class="text-decoration-underline" dir="ltr">+962 1 22 33 444</span>
+                                <p>23543 Amman 11115 Jordan</p>
                             </a>
                         </li>
                         <li class="d-flex justify-content-between gap-2">
