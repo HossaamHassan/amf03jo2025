@@ -28,7 +28,152 @@
 </head>
 
 <body class="arabic-version">
-    <main id="ContactUs ">
+    <main id="ContactUs">
+        <!-- Start Navbar -->
+        <!-- Start Top Bar -->
+        <nav class="top-bar bg-primary-color">
+            <div class="container d-flex align-items-center justify-content-between">
+                <div class="social-icons-nav d-flex align-items-center gap-2">
+                    <a href="#" aria-label="فيسبوك"><i class="fa-brands fa-facebook-f text-white"></i></a>
+                    <a href="#" aria-label="إنستغرام"><i class="fa-brands fa-instagram text-white"></i></a>
+                    <a href="#" aria-label="لينكدإن"><i class="fa-brands fa-linkedin-in text-white"></i></a>
+                    <a href="#" aria-label="واتساب"><i class="fab fa-whatsapp text-white"></i></a>
+                    <a href="#" aria-label="يوتيوب"><i class="fa-brands fa-youtube text-white"></i></a>
+                </div>
+                <a href="#" class="lang-btn bg-secondary-color py-1 px-3 d-flex align-items-center gap-2 text-white">
+                    <h6>English</h6>
+                    <picture>
+                        <img src="./assets/icons/GlobeSimple.svg" alt="تغيير اللغة">
+                    </picture>
+                </a>
+            </div>
+        </nav>
+        <!-- Secondary Nav -->
+        <nav class="secondary-nav d-flex justify-content-between py-2">
+            <div class="container d-flex justify-content-between">
+                <picture class="logo-img">
+                    <img src="./assets/imgaes/logo.png" alt="شعار" class="default-image-class">
+                </picture>
+                <div class="nav-buttons d-flex align-items-center gap-2">
+                    <a href="#" class="main-btn">
+                        <span>قدّم الآن</span>
+                        <picture><img src="./assets/icons/Desktop.svg" alt="تقديم"></picture>
+                    </a>
+                    <a href="#" class="main-btn fourth-btn">
+                        <span>الفروع</span>
+                        <picture><img src="./assets/icons/MapPinLineNav.svg" alt="خريطة الفروع"></picture>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- Third Nav -->
+        <nav class="navbar navbar-expand-lg middle-header">
+            <div class="container navbar-container d-inline-flex justify-content-between align-items-stretch">
+                <button id="toggleButton" class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="تبديل القائمة">
+                    <i class="fa-solid fa-bars" id="openIcon"></i>
+                    <i class="fa-solid fa-xmark primary-color d-none" id="closeIcon"></i>
+                </button>
+
+                <div class="flex-grow-1 d-flex align-items-center justify-content-between">
+                    <div class="navbar-collapse-container d-flex align-items-center justify-content-between w-100">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-lg-0 custom-nav">
+
+                                <li
+                                    class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
+                                    <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
+                                        من نحن
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </a>
+                                    <button class="toggleButtonHeader d-lg-none px-3">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus hidden"></i>
+                                    </button>
+                                    <div class="dropdown-menu-news">
+                                        <ul>
+                                            <li><a href="/about/vision">رؤيتنا</a></li>
+                                            <li><a href="/about/team">فريقنا</a></li>
+                                            <li><a href="/about/history">تاريخنا</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li
+                                    class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
+                                    <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
+                                        المنتجات والخدمات
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </a>
+                                    <button class="toggleButtonHeader d-lg-none px-3">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus hidden"></i>
+                                    </button>
+                                    <div class="dropdown-menu-news">
+                                        <ul>
+                                            <li><a href="/services/loans">القروض</a></li>
+                                            <li><a href="/services/savings">الادخار</a></li>
+                                            <li><a href="/services/support">الدعم</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li
+                                    class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
+                                    <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
+                                        الأخبار
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </a>
+                                    <button class="toggleButtonHeader d-lg-none px-3">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus hidden"></i>
+                                    </button>
+                                    <div class="dropdown-menu-news">
+                                        <ul>
+                                            <li><a href="/news/local">محلية</a></li>
+                                            <li><a href="/news/world">عالمية</a></li>
+                                            <li><a href="/news/sports">رياضة</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item container">
+                                    <a href="/contact" class="nav-link small-screen p-title">اتصل بنا</a>
+                                </li>
+
+                                <li class="nav-item container">
+                                    <a href="/preferences" class="nav-link small-screen p-title">تفضيلاتي</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#" class="d-flex align-items-center gap-2 search-btn text-black-color">
+                            <span>بحث</span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                    </div>
+                    <picture class="logo-img">
+                        <img src="./assets/imgaes/logo.png" alt="الشعار" class="default-image-class mw-100">
+                    </picture>
+                </div>
+            </div>
+        </nav>
+        <!-- Search Container -->
+        <div class="search-nav-container overflow-hidden">
+            <div class="searchBarOpen">
+                <form class="searchBarOpen--input" id="custom-search-form">
+                    <div class="d-flex align-items-center gap-2">
+                        <input type="text" name="title" id="search-title-input" required placeholder="ابحث هنا"
+                            data-url-name="title" />
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass text-white"></i>
+                        </button>
+                    </div>
+                </form>
+                <span class="searchBarOpen--closeBtn"><i class="fa-solid fa-x"></i></span>
+            </div>
+        </div>
+        <!-- End Navbar -->
         <!-- Hero Section -->
         <section class="hero-section py-5">
             <div class="container">

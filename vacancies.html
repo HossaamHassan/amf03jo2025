@@ -28,6 +28,171 @@
 
 <body>
     <main id="vacancies">
+        <!-- Start Navbar -->
+        <!-- Start Top Bar -->
+        <nav class="top-bar  bg-primary-color">
+            <div class="container d-flex align-items-center justify-content-between ">
+                <div class="social-icons-nav d-flex align-items-center gap-2">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f text-white "></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram text-white "></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in text-white "></i></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-whatsapp text-white "></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube text-white "></i></a>
+                </div>
+                <a href="#" class="lang-btn bg-secondary-color py-1 px-3 d-flex align-items-center gap-2 text-white ">
+                    <h6>
+                        العربية
+                    </h6>
+                    <picture>
+                        <img src="./assets/icons/GlobeSimple.svg" alt="">
+                    </picture>
+                </a>
+            </div>
+        </nav>
+        <!-- Secondary Nav -->
+        <nav class="secondary-nav d-flex justify-content-between py-2">
+            <div class="container d-flex justify-content-between">
+                <picture class="logo-img">
+                    <img src="./assets/imgaes/logo.png" alt="" class=" default-image-class">
+                </picture>
+                <div class="nav-buttons d-flex align-items-center gap-2">
+                    <a href="#" class="main-btn">
+                        <span>
+                            Apply Online
+                        </span>
+                        <picture>
+                            <img src="./assets/icons/Desktop.svg" alt="">
+                        </picture>
+                    </a>
+                    <a href="#" class="main-btn fourth-btn ">
+                        <span>
+                            Branches
+                        </span>
+                        <picture>
+                            <img src="./assets/icons/MapPinLineNav.svg" alt="">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- Third Nav -->
+        <nav class="navbar navbar-expand-lg middle-header">
+            <div class="container navbar-container d-inline-flex justify-content-between align-items-stretch ">
+
+                <button id="toggleButton" class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" id="openIcon"></i>
+                    <i class="fa-solid fa-xmark primary-color d-none" id="closeIcon"></i>
+                </button>
+
+                <div class="flex-grow-1 d-flex align-items-center justify-content-between ">
+
+                    <div class="navbar-collapse-container d-flex align-items-center justify-content-between w-100">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mb-lg-0 custom-nav">
+
+                                <!-- About -->
+                                <li
+                                    class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
+                                    <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
+                                        About Us
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </a>
+                                    <button class="toggleButtonHeader d-lg-none  px-3">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus hidden"></i>
+                                    </button>
+                                    <div class="dropdown-menu-news">
+                                        <ul>
+                                            <li><a href="/news/local">Local News</a></li>
+                                            <li><a href="/news/world">World News</a></li>
+                                            <li><a href="/news/sports">Sports</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li
+                                    class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
+                                    <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
+                                        Products & Services
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </a>
+                                    <button class="toggleButtonHeader d-lg-none px-3">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus hidden"></i>
+                                    </button>
+                                    <div class="dropdown-menu-news">
+                                        <ul>
+                                            <li><a href="/news/local">Local News</a></li>
+                                            <li><a href="/news/world">World News</a></li>
+                                            <li><a href="/news/sports">Sports</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <!-- News with dropdown -->
+                                <li
+                                    class="nav-item dropdown-menu-news-li-parent nav-link d-flex justify-content-between align-items-center w-100 flex-wrap container relative">
+                                    <a href="#" class="custom-dropdown anchor-none p-title d-flex align-items-center">
+                                        News
+                                        <i class="fa-solid fa-caret-down"></i>
+                                    </a>
+                                    <button class="toggleButtonHeader d-lg-none  px-3">
+                                        <i class="fa-solid fa-plus"></i>
+                                        <i class="fa-solid fa-minus hidden"></i>
+                                    </button>
+                                    <div class="dropdown-menu-news">
+                                        <ul>
+                                            <li><a href="/news/local">Local News</a></li>
+                                            <li><a href="/news/world">World News</a></li>
+                                            <li><a href="/news/sports">Sports</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <!-- Contact -->
+                                <li class="nav-item container">
+                                    <a href="/contact" class="nav-link small-screen p-title">Contact Us</a>
+                                </li>
+
+                                <!-- Preferences -->
+                                <li class="nav-item container">
+                                    <a href="/preferences" class="nav-link small-screen p-title">My Preferences</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <a href="#" class="d-flex align-items-center gap-2 search-btn text-black-color">
+                            <span>
+                                Search
+                            </span>
+                            <i class="fa-solid fa-magnifying-glass "></i>
+                        </a>
+                    </div>
+                    <picture class="logo-img">
+                        <img src="./assets/imgaes/logo.png" alt="" class=" default-image-class mw-100">
+                    </picture>
+                </div>
+            </div>
+        </nav>
+        <!-- Search Container -->
+        <div class="search-nav-container overflow-hidden">
+            <div class="searchBarOpen">
+                <form class="searchBarOpen--input" id="custom-search-form">
+
+                    <div class="d-flex align-items-centr gap-2">
+                        <input type="text" name="title" id="search-title-input" required placeholder="Search Here"
+                            data-url-name="title" />
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass text-white"></i>
+                        </button>
+                    </div>
+                </form>
+                <span class="searchBarOpen--closeBtn"><i class="fa-solid fa-x"></i></span>
+            </div>
+        </div>
+        <!-- End Navbar -->
         <section class="hero-section py-5">
             <div class="container">
                 <div class="hero-content">
