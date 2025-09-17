@@ -41,9 +41,9 @@
                     <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube text-white "></i></a>
                 </div>
                 <a href="#" class="lang-btn bg-secondary-color py-1 px-3 d-flex align-items-center gap-2 text-white ">
-                    <h3>
+                    <h6>
                         العربية
-                    </h3>
+                    </h6>
                     <picture>
                         <img src="./assets/icons/GlobeSimple.svg" alt="">
                     </picture>
@@ -247,7 +247,8 @@
                                     </a>
                                     <div class="share-button-wrapper">
                                         <button class="media-share-button" onclick="toggleShareOptions(this)">
-                                            <span class="share-icon"><img src="./assets/icons/ShareNetwork.svg" alt="Share"></span>
+                                            <span class="share-icon"><img src="./assets/icons/ShareNetwork.svg"
+                                                    alt="Share"></span>
                                             <span class="close-icon"><img src="./assets/icons/X.svg" alt="Share"></span>
                                         </button>
                                         <div class="share-options">
@@ -294,7 +295,8 @@
                                     </a>
                                     <div class="share-button-wrapper">
                                         <button class="media-share-button" onclick="toggleShareOptions(this)">
-                                            <span class="share-icon"><img src="./assets/icons/ShareNetwork.svg" alt="Share"></span>
+                                            <span class="share-icon"><img src="./assets/icons/ShareNetwork.svg"
+                                                    alt="Share"></span>
                                             <span class="close-icon"><img src="./assets/icons/X.svg" alt="Share"></span>
                                         </button>
                                         <div class="share-options">
@@ -314,7 +316,7 @@
                                                 <i class="fab fa-facebook"></i>
                                             </a>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                             </div>
@@ -547,56 +549,56 @@
     </main>
 
     <script>
-       $(document).ready(function() {
+        $(document).ready(function () {
 
-    // Toggle share options function
-    window.toggleShareOptions = function(button) {
-        const $shareButton = $(button);
-        const $card = $shareButton.closest('.media-card-buttons');
-        const $shareOptions = $card.find('.share-options');
-        const $readMoreBtn = $card.find('.read-more-btn');
+            // Toggle share options function
+            window.toggleShareOptions = function (button) {
+                const $shareButton = $(button);
+                const $card = $shareButton.closest('.media-card-buttons');
+                const $shareOptions = $card.find('.share-options');
+                const $readMoreBtn = $card.find('.read-more-btn');
 
-        if ($shareButton.hasClass('active')) {
-            // Close: slide out to right and fade out
-            setTimeout(function() {
-                $shareOptions.removeClass('slide-in').addClass('slide-out').fadeOut(300, function() {
-                    $(this).css({
-                        display: 'none'
-                    });
-                });
-            }, 100);
+                if ($shareButton.hasClass('active')) {
+                    // Close: slide out to right and fade out
+                    setTimeout(function () {
+                        $shareOptions.removeClass('slide-in').addClass('slide-out').fadeOut(300, function () {
+                            $(this).css({
+                                display: 'none'
+                            });
+                        });
+                    }, 100);
 
-            // Show read more button
-            setTimeout(function() {
-                $readMoreBtn.css({
-                    display: 'flex'
-                }).fadeIn(300).removeClass('slide-out-left').addClass('slide-in-left');
-            }, 500);
+                    // Show read more button
+                    setTimeout(function () {
+                        $readMoreBtn.css({
+                            display: 'flex'
+                        }).fadeIn(300).removeClass('slide-out-left').addClass('slide-in-left');
+                    }, 500);
 
-            // Toggle button icons
-            $shareButton.removeClass('active');
-        } else {
-            // Open: slide in from right and fade in
-            setTimeout(function() {
-                $shareOptions.css({
-                    display: 'flex'
-                }).fadeIn(300).removeClass('slide-out').addClass('slide-in');
-            }, 500);
+                    // Toggle button icons
+                    $shareButton.removeClass('active');
+                } else {
+                    // Open: slide in from right and fade in
+                    setTimeout(function () {
+                        $shareOptions.css({
+                            display: 'flex'
+                        }).fadeIn(300).removeClass('slide-out').addClass('slide-in');
+                    }, 500);
 
-            // Hide read more button
-            setTimeout(function() {
-                $readMoreBtn.fadeOut(300, function() {
-                    $(this).css({
-                        display: 'none'
-                    });
-                }).removeClass('slide-in-left').addClass('slide-out-left');
-            }, 100);
+                    // Hide read more button
+                    setTimeout(function () {
+                        $readMoreBtn.fadeOut(300, function () {
+                            $(this).css({
+                                display: 'none'
+                            });
+                        }).removeClass('slide-in-left').addClass('slide-out-left');
+                    }, 100);
 
-            // Toggle button icons
-            $shareButton.addClass('active');
-        }
-    };
-});
+                    // Toggle button icons
+                    $shareButton.addClass('active');
+                }
+            };
+        });
     </script>
 </body>
 
