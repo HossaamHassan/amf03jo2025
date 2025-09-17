@@ -164,7 +164,9 @@ li,
 h6 {
     font-weight: 500;
 }
-
+p {
+    font-size: .95rem;
+}
 span,
 .card-date {
     font-size: .9rem;
@@ -707,7 +709,7 @@ img {
         justify-content: center;
         overflow: hidden;
         padding-block: 1px;
-        flex: 0 0 180px;
+        flex: 0 0 185px;
     }
 }
 
