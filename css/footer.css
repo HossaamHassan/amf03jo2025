@@ -103,12 +103,7 @@
 }
 
 .footer-section .footer-item h5 {
-    min-width: max-content;
-    font-size: 1rem;
-    color: var(--primary-color);
-    padding-bottom: 0.75rem;
     margin-bottom: 0;
-    font-weight: 510;
 }
 
 .arabic-version .footer-section .footer-item h5 {
