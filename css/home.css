@@ -9,8 +9,8 @@
 }
 
 .hero-section-slider h2 {
-    line-height: 2.1rem;
-    height: calc(2* 2rem + 4px);
+    line-height: 2.3rem;
+    height: calc(2 * 2.3rem + 4px);
 }
 
 .hero-slider-counter {
@@ -19,6 +19,11 @@
     transform: translate(-50%, -50%);
     inset-inline-start: 50%;
     color: #fff;
+}
+
+.arabic-version .hero-slider-counter {
+    inset-inline-end: 50%;
+    inset-inline-start: unset;
 }
 
 @media (max-width: 991.98px) {
