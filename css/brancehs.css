@@ -14,6 +14,6 @@
     font-size: 20px;
 }
 
-.branches-section a:hover p {
+.branches-section a p {
     text-decoration: underline;
 }
