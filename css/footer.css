@@ -47,13 +47,10 @@
     line-height: 20px;
 
     margin-bottom: 0;
-    font-family: "Roboto-Light";
     font-size: 0.9rem;
 }
 
-.arabic-version .main-footer-container .footer-logo-container p {
-    font-family: "Cairo-light";
-}
+.arabic-version .main-footer-container .footer-logo-container p {}
 
 .main-footer-container>.footer-section {
     display: flex;
@@ -86,12 +83,9 @@
     color: var(--primary-color);
 
     opacity: 1;
-    font-family: "Roboto-Light";
 }
 
-.arabic-version .main-footer-container .footer-bottom-content p {
-    font-family: "Cairo-light";
-}
+.arabic-version .main-footer-container .footer-bottom-content p {}
 
 .footer-section .footer-item {
     flex: 2;
@@ -119,13 +113,10 @@
 
 .main-footer-container .footer-item .footer-location-text p {
     color: var(--primary-color);
-    font-family: "Roboto-Light";
     padding-top: 0.75rem;
 }
 
-.main-footer-container .footer-item .footer-location-text p {
-    font-family: "Cairo-light";
-}
+.main-footer-container .footer-item .footer-location-text p {}
 
 .main-footer-container .footer-item ul li {
     padding-bottom: .5rem;
@@ -181,9 +172,7 @@
     text-decoration: none;
 }
 
-.arabic-version .main-footer-container .footer-copyright-container-centered a {
-    font-family: "Cairo-light";
-}
+.arabic-version .main-footer-container .footer-copyright-container-centered a {}
 
 .main-footer-container .footer-copyright-container-centered a::after {
     height: 100%;
@@ -201,13 +190,10 @@
 
 .main-footer-container .footer-copyright-container-centered p {
     margin-bottom: 0;
-    font-family: "Roboto-Light";
     color: #fff;
 }
 
-.arabic-version .main-footer-container .footer-copyright-container-centered p {
-    font-family: "Cairo-light";
-}
+.arabic-version .main-footer-container .footer-copyright-container-centered p {}
 
 .main-footer-container .footer-social-icons {
     list-style: none;

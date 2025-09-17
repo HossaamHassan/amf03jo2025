@@ -1187,3 +1187,7 @@ a:hover .user-icon-black {
         width: fit-content !important;
     }
 }
+
+.top-bar i {
+    font-size: 1.2rem;
+}

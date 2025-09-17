@@ -366,6 +366,10 @@
 
 /* End Services */
 /* Start Partners */
+.partners {
+    background-color: #F2FAFA;
+}
+
 .partners picture {
     display: flex;
 }
@@ -430,7 +434,7 @@
 .our-impact-section .impact-cards-container .start-impact-card .impact-card-content {
     position: absolute;
     top: 50%;
-    inset-inline-start: 25%;
+    inset-inline-start: 30%;
     transform: translate(-50%, -50%);
 }
 
@@ -442,7 +446,7 @@
 .our-impact-section .impact-cards-container .end-impact-card .impact-card-content {
     position: absolute;
     top: 50%;
-    inset-inline-start: 75%;
+    inset-inline-start: 70%;
     transform: translate(-50%, -50%);
 }
 
