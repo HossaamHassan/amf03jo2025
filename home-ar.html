@@ -755,14 +755,17 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 mb-4 mb-lg-0">
-                                <div class="calculate-card text-center   bg-cyan-color py-5 radius-5 h-100">
-                                    <h4 class="text-white">
-                                        36
-                                    </h4>
-                                    <p class="text-white text-center">
-                                        عدد الدفعات
+                            <div class="col-12 mt-4">
+                                <div class="calculate-content-loan d-flex align-items-center flex-column ">
+                                    <p class="text-primary-color text-center">
+                                        * يرجى ملاحظة أن هذه مجرد آلة حاسبة تقديرية بناءً على المبالغ المدخلة
                                     </p>
+                                    <a href="#" class="main-btn">
+                                        <span>
+                                            تقدم الآن
+                                        </span>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -1099,18 +1102,19 @@
                 <img src="./assets/icons/chat.svg" alt="">
             </picture>
         </a>
-        <div class="modal fade" id="tshirtModal" tabindex="-1" aria-hidden="true">
+        <div class="modal fade" id="applyModal" tabindex="-1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg">
                 <div class="modal-content">
                     <!-- Header -->
                     <div class="modal-header d-flex flex-column justify-content-center align-items-center">
-                        <h6 class="text-center">Please fill the information</h6>
+                        <h6 class="text-center">يرجى تعبئة المعلومات</h6>
                         <p class="text-center">
-                            Please fill out the following information accurately to ensure you get the right size
-                            when designing your company’s T-shirts.
+                            يرجى تعبئة المعلومات التالية بدقة لضمان حصولك على المقاس المناسب
+                            عند تصميم قمصان شركتك.
                         </p>
-                        <button type="button" class="btn close-btn" data-bs-dismiss="modal" aria-label="Close"><i
-                                class="fa-solid fa-xmark"></i></button>
+                        <button type="button" class="btn close-btn" data-bs-dismiss="modal" aria-label="Close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
                     </div>
 
                     <!-- Body -->
@@ -1119,37 +1123,37 @@
                             <div class="d-flex flex-column w-100 align-items-center  justify-content-center">
                                 <div class="row w-100 px-0 g-4 pt-3 pb-3">
                                     <div class="col-lg-6 col-12 d-flex flex-column gap-2">
-                                        <label for="name">Full name<span class="red-astrik">*</span> </label>
+                                        <label for="name">الاسم الكامل<span class="red-astrik">*</span> </label>
                                         <input class="form-control " type="text" name="name" id="name"
-                                            placeholder=" Type here " />
+                                            placeholder="اكتب هنا" />
                                     </div>
                                     <div class="col-lg-6 col-12 d-flex flex-column gap-2">
-                                        <label for="Department">Department/Branch<span class="red-astrik">*</span>
+                                        <label for="Department">القسم / الفرع<span class="red-astrik">*</span>
                                         </label>
                                         <input class="form-control " type="text" name="Department" id="Department"
-                                            placeholder=" Type here " />
+                                            placeholder="اكتب هنا" />
                                     </div>
                                     <div class="col-12 d-flex flex-column gap-2">
-                                        <label for="role">Sleeve type <span class="red-astrik">*</span></label>
+                                        <label for="role">نوع الكم <span class="red-astrik">*</span></label>
                                         <div class="radio-btns-container d-flex gap-4">
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="role" id="clientYes"
                                                     value="Full">
                                                 <span>
-                                                    Full
+                                                    طويل
                                                 </span>
                                             </div>
                                             <div class="form-check">
                                                 <input class="form-check-input" type="radio" name="role" id="clientNo"
                                                     value="Half">
                                                 <span>
-                                                    Half
+                                                    قصير
                                                 </span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-12 d-flex flex-column gap-2">
-                                        <label for="size">Choose the size that suits you <span
+                                        <label for="size">اختر المقاس المناسب لك <span
                                                 class="red-astrik">*</span></label>
                                         <div class="radio-btns-container d-flex gap-4">
                                             <div class="form-check">
@@ -1211,7 +1215,7 @@
                                         </div>
                                     </div>
                                     <button class="main-btn ms-2">
-                                        <span>Submit, thank you for your participation</span>
+                                        <span>إرسال، شكرًا لمشاركتك</span>
                                     </button>
                                 </div>
                             </div>
@@ -1220,6 +1224,7 @@
                 </div>
             </div>
         </div>
+
 
     </main>
     <script>

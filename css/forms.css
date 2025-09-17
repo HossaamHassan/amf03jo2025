@@ -186,6 +186,10 @@ textarea.form-control {
     gap: 0.5rem;
 }
 
+.arabic-version .form-check {
+    gap: 0;
+}
+
 .arabic-version .form-check-input {
     margin: 0;
     float: none;
@@ -223,7 +227,7 @@ textarea.form-control {
 }
 
 .date-input {
- position: relative;
+    position: relative;
 }
 
 .date-input .calendar-icon {
