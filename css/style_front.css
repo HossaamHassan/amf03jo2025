@@ -26,6 +26,7 @@
 body {
     color: var(--black-color);
     font-family: var(--main-font-family);
+    font-weight: 500;
 }
 
 html {
@@ -142,11 +143,13 @@ h6 {
     }
 }
 
-h1 {}
+h1 {
+    font-size: 2rem;
+}
 
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
 
@@ -155,18 +158,21 @@ h3 {
 }
 
 
-h4 {}
+h4 {
+    font-size: 1.25rem;
+}
 
-h5 {}
+h5 {
+    font-size: 1.2rem;
+}
 
 p,
 li,
 h6 {
-    font-weight: 500;
-}
-p {
     font-size: .95rem;
 }
+
+
 span,
 .card-date {
     font-size: .9rem;
