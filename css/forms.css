@@ -13,13 +13,15 @@ input[type="checkbox"] {
 }
 
 .form-select,
-.form-control,
-.input-with-icon,
-.attach-input {
+.form-control {
     border-radius: 50px;
     font-size: .85rem;
-    color: rgb(45 41 38 / 30%) !important;
     border: var(--main-border-op-30);
+    font-family: 500;
+}
+
+.form-control::placeholder {
+    color: rgb(45 41 38 / 30%) !important;
 }
 
 .form-select {
