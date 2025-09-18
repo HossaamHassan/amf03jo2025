@@ -1,12 +1,9 @@
-.fancybox__infobar {
+.f-button.is-close-btn {
     background-color: var(--primary-color);
+    border-radius: 50%;
 }
 
-.f-button {
-    background-color: var(--primary-color);
-}
-
-.f-button:hover {
+.f-button.is-close-btn:hover {
     background-color: var(--secondary-color) !important;
 }
 
