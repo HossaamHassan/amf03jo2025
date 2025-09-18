@@ -89,6 +89,12 @@ textarea.form-control {
 .iti,
 .iti input {
     width: 100%;
+    direction: ltr;
+}
+
+.iti input.iti__tel-input {
+    padding-left: 106px !important;
+    padding-right: 0 !important;
 }
 
 .iti__selected-country {
@@ -101,12 +107,6 @@ textarea.form-control {
         padding-inline-end: 1.9rem;
     }
 }
-
-.arabic-version .iti__selected-country {
-    border-inline-start: 0 !important;
-    direction: rtl;
-}
-
 
 .iti__arrow {
     position: absolute;
@@ -127,6 +127,11 @@ textarea.form-control {
     rotate: 180deg;
 }
 
+.iti__country-container {
+    left: 0px;
+    right: auto;
+}
+
 .iti--allow-dropdown .iti__country-container:not(:has(+ input[disabled])):not(:has(+ input[readonly])) .iti__selected-country-primary:hover {
     background-color: transparent;
 }
@@ -142,18 +147,10 @@ textarea.form-control {
     outline: 0 !important;
 }
 
-.arabic-version .iti--inline-dropdown .iti__dropdown-content {
-    inset-inline-end: unset !important;
-}
-
 /* .iti input.iti__tel-input {
     text-indent: 10px;
 
 } */
-
-.arabic-version .iti input.iti__tel-input {
-    text-align: right;
-}
 
 .iti--inline-dropdown .iti__dropdown-content {
     z-index: 9;
