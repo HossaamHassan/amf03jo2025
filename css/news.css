@@ -96,6 +96,7 @@
         transform: translateX(20px);
         opacity: 0;
     }
+
     to {
         transform: translateX(0);
         opacity: 1;
@@ -107,6 +108,7 @@
         transform: translateX(0);
         opacity: 1;
     }
+
     to {
         transform: translateX(20px);
         opacity: 0;
@@ -118,6 +120,7 @@
         transform: translateX(-20px);
         opacity: 0;
     }
+
     to {
         transform: translateX(0);
         opacity: 1;
@@ -129,6 +132,7 @@
         transform: translateX(0);
         opacity: 1;
     }
+
     to {
         transform: translateX(-20px);
         opacity: 0;
@@ -149,4 +153,8 @@
 
 .read-more-btn.slide-out-left {
     animation: slideOutLeft 0.3s ease forwards;
+}
+
+.share-link i {
+    font-size: 1.2rem;
 }
