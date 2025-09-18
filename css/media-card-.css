@@ -6,3 +6,6 @@
     align-items: center;
     justify-content: center;
 }
+.media-card img {
+    border-radius: 0 !important;
+}

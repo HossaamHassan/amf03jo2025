@@ -1,6 +1,6 @@
  <div class="media-card main-border-op-20 radius-5">
      <picture>
-         <img src="./assets/imgaes/photo-g-2.png" alt="" class="default-image-class">
+         <img src="./assets/images/photo-g-2.png" alt="" class="default-image-class">
      </picture>
      <div class="media-card-content-container p-3">
          <div class="media-card-content h-100 ">

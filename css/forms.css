@@ -132,7 +132,7 @@ textarea.form-control {
 }
 
 .iti__flag {
-    background-image: url("../assets/imgaes/flags.webp");
+    background-image: url("../assets/images/flags.webp");
 }
 
 .iti__search-input,
@@ -272,7 +272,7 @@ textarea.form-control {
     margin: 2.5rem auto;
     max-width: 850px;
 }
-  
+
 /* One line behind all steps */
 .stepper::before {
     content: "";
@@ -290,7 +290,7 @@ textarea.form-control {
     inset-inline-end: 50%;
     inset-inline-start: auto;
 }
-  
+
 /* Step circles */
 .step {
     display: flex;
@@ -302,7 +302,7 @@ textarea.form-control {
     z-index: 1;
     /* circles above the line */
 }
-  
+
 .circle {
     width: 4rem;
     height: 4rem;
@@ -313,21 +313,21 @@ textarea.form-control {
     align-items: center;
     justify-content: center;
 }
-  
+
 /* Labels */
 .label {
-color: var(--black-color);
+    color: var(--black-color);
 }
-  
+
 @media (max-width: 767.98px) {
     .stepper {
-      flex-direction: column;
-      gap: 1.25rem;
+        flex-direction: column;
+        gap: 1.25rem;
     }
-  
+
     .stepper::before {
-      transform: rotate(90deg) !important;
-      top: 50%;
-      display: none;
+        transform: rotate(90deg) !important;
+        top: 50%;
+        display: none;
     }
 }

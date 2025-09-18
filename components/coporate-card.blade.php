@@ -1,6 +1,6 @@
 <div class="media-card main-border-op-20 radius-5">
     <picture>
-        <img src="./assets/imgaes/News image/Rectangle 20337.png" alt="" class="default-image-class">
+        <img src="./assets/images/News image/Rectangle 20337.png" alt="" class="default-image-class">
     </picture>
     <div class="media-card-content-container p-3">
         <div class="media-card-content">

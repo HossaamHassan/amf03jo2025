@@ -21,6 +21,10 @@
     color: #fff;
 }
 
+.hero-slider-counter .slider-counter {
+    font-size: 1.2rem;
+}
+
 .arabic-version .hero-slider-counter {
     inset-inline-end: 50%;
     inset-inline-start: unset;
@@ -28,7 +32,7 @@
 
 @media (max-width: 991.98px) {
     .hero-slider-counter {
-        top: 90%;
+        top: 85%;
     }
 }
 
@@ -466,20 +470,24 @@
 
 .start-impact-card .bg-impact-img {
     position: absolute;
-    inset-inline-start: 30px;
+    inset-inline-start: 20px;
     transform: translate(-50%, -50%);
     top: 50%;
+    width: 120px;
+    height: auto;
 }
 
 .arabic-version .start-impact-card .bg-impact-img {
-    inset-inline-start: -50px;
+    inset-inline-start: -90px;
 }
 
 .end-impact-card .bg-impact-img {
     position: absolute;
-    inset-inline-end: -40px;
+    inset-inline-end: -90px;
     transform: translate(-50%, -50%);
     top: 50%;
+    width: 120px;
+    height: auto;
 }
 
 .arabic-version .end-impact-card .bg-impact-img {
