@@ -263,3 +263,71 @@ textarea.form-control {
     padding: 10px;
     overflow: hidden;
 }
+
+.stepper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5rem auto;
+    max-width: 850px;
+}
+  
+/* One line behind all steps */
+.stepper::before {
+    content: "";
+    position: absolute;
+    top: 25%;
+    inset-inline-start: 50%;
+    transform: translate(-50%, -50%);
+    height: 0.4rem;
+    background: var(--black-color);
+    z-index: 0;
+    width: 85%;
+}
+
+.arabic-version .stepper::before {
+    inset-inline-end: 50%;
+    inset-inline-start: auto;
+}
+  
+/* Step circles */
+.step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    /* circles above the line */
+}
+  
+.circle {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: var(--black-color);
+    color: var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+/* Labels */
+.label {
+color: var(--black-color);
+}
+  
+@media (max-width: 767.98px) {
+    .stepper {
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+  
+    .stepper::before {
+      transform: rotate(90deg) !important;
+      top: 50%;
+      display: none;
+    }
+}
