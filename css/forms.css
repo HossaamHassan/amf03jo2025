@@ -314,6 +314,7 @@ textarea.form-control {
 /* Labels */
 .label {
     color: var(--black-color);
+    text-align: var();
 }
 
 @media (max-width: 767.98px) {
@@ -327,4 +328,39 @@ textarea.form-control {
         top: 50%;
         display: none;
     }
+}
+.step {
+    position: relative;
+}
+
+.step.active::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: 120%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    height: 0.4rem;
+    width: 115%;
+    background-color: var(--primary-color);
+
+}
+
+@media (max-width: 991.98px) {
+    .step.active::before {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .step.active::before {
+        content: unset;
+    }
+}
+
+.step.active .circle {
+    background-color: var(--primary-color);
+}
+
+.step.active .label {
+    color: var(--primary-color);
 }
