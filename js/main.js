@@ -29,10 +29,12 @@ $(document).ready(function () {
     $(".search-btn").on("click", function (e) {
         e.preventDefault();
         $(".searchBarOpen").addClass("active");
+        $("body").addClass("overflow-hidden");
     });
 
     $(".searchBarOpen--closeBtn").on("click", function () {
         $(".searchBarOpen").removeClass("active");
+        $("body").removeClass("overflow-hidden");
     });
 });
 

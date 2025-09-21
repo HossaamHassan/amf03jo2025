@@ -1105,7 +1105,7 @@ a:hover .user-icon-black {
 }
 
 .searchBarOpen--input input::placeholder {
-    color: #777;
+    color: rgb(255 255 255 / 80%);
 }
 
 .searchBarOpen--input button {
