@@ -295,11 +295,11 @@
     }
 }
 
-@media (max-width: 767.888888px) {
+/* @media (max-width: 767.888888px) {
     .hero-arrows-container {
         display: none;
     }
-}
+} */
 
 @media (max-width: 575.888888px) {
     .hero-section-slider .slick-dots {

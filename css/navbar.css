@@ -286,7 +286,7 @@
 @media (max-width: 991.98px) {
     .navbar-collapse {
         position: absolute;
-        top: 3.8rem;
+        top: 3.3rem;
         right: 0;
         width: 100%;
         background-color: #fff;
@@ -931,6 +931,8 @@ a:hover .user-icon-black {
         position: relative !important;
         display: block !important;
         margin-top: 0px;
+        max-height: 94px;
+        overflow: scroll;
     }
 
     .dropdown-menu-news a,
@@ -1156,13 +1158,18 @@ a:hover .user-icon-black {
 
 @media (max-width: 991.98px) {
 
-    .secondary-nav .logo-img,
     .navbar-container .search-btn span,
     .custom-dropdown i {
         display: none;
     }
 
-    .navbar .logo-img {
+    .secondary-nav a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .secondary-nav .logo-img {
         width: 230px !important;
         display: block;
     }
@@ -1185,6 +1192,24 @@ a:hover .user-icon-black {
 
     .navbar-collapse-container {
         width: fit-content !important;
+    }
+}
+
+@media(max-width: 767.98px) {
+    .secondary-nav .logo-img {
+        width: 180px !important;
+        display: block;
+    }
+}
+
+@media(max-width: 575.98px) {
+
+    .secondary-nav .main-btn span {
+        display: none;
+    }
+
+    .secondary-nav .main-btn {
+        padding: 7px;
     }
 }
 
