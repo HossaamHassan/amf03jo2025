@@ -280,7 +280,7 @@ textarea.form-control {
     height: 0.4rem;
     background: var(--black-color);
     z-index: 0;
-    width: 85%;
+    width: 80%;
 }
 
 .arabic-version .stepper::before {
@@ -298,6 +298,7 @@ textarea.form-control {
     text-align: center;
     z-index: 1;
     /* circles above the line */
+    flex: 1;
 }
 
 .circle {
@@ -336,15 +337,20 @@ textarea.form-control {
 .step.active::before {
     content: "";
     position: absolute;
-    inset-inline-start: 120%;
+    inset-inline-start: 100%;
     top: 25%;
     transform: translate(-50%, -50%);
     height: 0.4rem;
-    width: 115%;
+    width: 100%;
     background-color: var(--primary-color);
-
+    z-index: -1;
 }
-
+.arabic-version .step.active::before {
+    inset-inline-start: 0;
+}
+.step.active:last-child::before{
+    content: unset;
+}
 @media (max-width: 991.98px) {
     .step.active::before {
         width: 100%;
@@ -364,3 +370,4 @@ textarea.form-control {
 .step.active .label {
     color: var(--primary-color);
 }
+
