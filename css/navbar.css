@@ -294,7 +294,18 @@
         max-height: 245px;
         overflow: scroll;
     }
+.navbar-collapse::-webkit-scrollbar {
+    width: 6px;
+}
 
+.navbar-collapse::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 3px;
+}
+
+.navbar-collapse::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-color);
+}
     .small-screen {
         padding: 1rem;
         color: var(--secondary-color);
