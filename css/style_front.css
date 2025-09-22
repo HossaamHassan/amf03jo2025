@@ -892,7 +892,7 @@ img {
     text-align: start;
 }
 
-@media(max-width: 991.98px) {
+@media(max-width: 767.98px) {
     .hero-section::before {
         top: -20%;
         right: 50%;
@@ -901,7 +901,7 @@ img {
         transform: rotate(0) translateX(50%);
     }
 
-    .hero-content {
+    .hero-content p {
         text-align: center !important;
     }
 }
