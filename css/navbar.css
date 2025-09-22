@@ -291,7 +291,7 @@
         width: 100%;
         background-color: #fff;
         z-index: 11;
-        max-height: 450px;
+        max-height: 240px;
         overflow: scroll;
     }
 
@@ -931,8 +931,6 @@ a:hover .user-icon-black {
         position: relative !important;
         display: block !important;
         margin-top: 0px;
-        max-height: 94px;
-        overflow: scroll;
     }
 
     .dropdown-menu-news a,
