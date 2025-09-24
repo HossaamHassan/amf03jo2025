@@ -315,7 +315,7 @@ textarea.form-control {
 /* Labels */
 .label {
     color: var(--black-color);
-    text-align: var();
+    text-align: center;
 }
 
 @media (max-width: 767.98px) {
@@ -329,7 +329,33 @@ textarea.form-control {
         top: 50%;
         display: none;
     }
+
+    .circle {
+        width: 2rem;
+        height: 2rem;
+        font-size: 1rem;
+    }
+
+    .label {
+        font-size: 0.7rem;
+        margin: 0;
+    }
 }
+
+@media (max-width: 576.98px) {
+    .circle {
+        width: 1.5rem;
+        height: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .label {
+        font-size: 0.6rem;
+        margin: 0;
+    }
+}
+    
+
 .step {
     position: relative;
 }
@@ -370,4 +396,3 @@ textarea.form-control {
 .step.active .label {
     color: var(--primary-color);
 }
-

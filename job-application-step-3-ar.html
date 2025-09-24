@@ -204,79 +204,92 @@
                     <div class="inputs-form">
                         <h3 class="mb-4 text-primary-color text-center">يرجى ملء طلب التوظيف</h3>
                         <p class="text-center">يرجى إدخال جميع المعلومات الشخصية ذات الصلة في الحقول أدناه.</p>
-                        <!-- Start Pagination for steps -->
-                        <div class="stepper">
-                            <div class="step">
-                                <h3 class="circle">01</h3>
-                                <p class="label">المعلومات الشخصية</p>
-                            </div>
-                            <div class="step">
-                                <h3 class="circle">02</h3>
-                                <p class="label">المعلومات التعليمية</p>
-                            </div>
-                            <div class="step active">
-                                <h3 class="circle">03</h3>
-                                <p class="label">المعلومات المهنية</p>
-                            </div>
-                            <div class="step">
-                                <h3 class="circle">04</h3>
-                                <p class="label">معلومات المراجع</p>
-                            </div>
-                        </div>
-                        <!-- End Pagination for steps -->
-
-                        <form action="" class="">
-                            <div class="d-flex flex-column w-100 align-items-center  justify-content-center ">
-                                <div class="row w-100 px-0 g-4 pt-3 pb-5">
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="employer-name">اسم صاحب العمل<span class="red-astrik">*</span>
-                                        </label>
-                                        <input class="form-control " type="text" name="employer-name" id="employer-name"
-                                            placeholder=" اكتب هنا " />
+                        <div class="row gx-3 gx-md-0">
+                            <!-- Start Pagination for steps -->
+                            <div class="col-md-12 col-sm-3 col-2">
+                                <div class="stepper">
+                                    <div class="step active">
+                                        <h3 class="circle">01</h3>
+                                        <p class="label">المعلومات الشخصية</p>
                                     </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="job-title">المسمى الوظيفي<span class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="job-title" id="job-title"
-                                            placeholder=" اكتب هنا " />
+                                    <div class="step">
+                                        <h3 class="circle">02</h3>
+                                        <p class="label">المعلومات التعليمية</p>
                                     </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="start-date">تاريخ البدء<span class="red-astrik">*</span> </label>
-                                        <div class="date-input">
-                                            <input class="form-control " type="text" name="start-date"
-                                                id="start-date" />
-                                            <img src="./assets/icons/CalendarBlank.svg" alt="" class="calendar-icon">
-                                        </div>
+                                    <div class="step">
+                                        <h3 class="circle">03</h3>
+                                        <p class="label">المعلومات المهنية</p>
                                     </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="end-date">تاريخ الانتهاء<span class="red-astrik">*</span> </label>
-                                        <div class="date-input">
-                                            <input class="form-control " type="text" name="end-date" id="end-date" />
-                                            <img src="./assets/icons/CalendarBlank.svg" alt="" class="calendar-icon">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="reasons-for-leaving">أسباب المغادرة <span
-                                                class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="reasons-for-leaving"
-                                            id="reasons-for-leaving" placeholder=" اكتب هنا " />
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="Salary">الراتب <span class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="Salary" id="Salary"
-                                            placeholder=" اكتب هنا " />
-                                    </div>
-                                    <div class="col-xxl-2 col-lg-3 col-md-4 col-12 d-flex flex-column gap-3">
-                                        <button class="secondary-btn w-100 d-flex justify-content-center">
-                                            <picture><img src="./assets/icons/Plus.svg" alt=""></picture>
-                                            <span>إضافة المزيد</span>
-                                        </button>
-                                        <button class="main-btn w-100 d-flex justify-content-center">
-                                            <span>التالي</span>
-                                        </button>
+                                    <div class="step">
+                                        <h3 class="circle">04</h3>
+                                        <p class="label">معلومات المراجع</p>
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                            <!-- End Pagination for steps -->
+
+                            <div class="col-md-12 col-sm-9 col-10">
+                                <form action="" class="">
+                                    <div class="d-flex flex-column w-100 align-items-center  justify-content-center ">
+                                        <div class="row w-100 px-0 g-4 pt-3 pb-5">
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="employer-name">اسم صاحب العمل<span
+                                                        class="red-astrik">*</span>
+                                                </label>
+                                                <input class="form-control " type="text" name="employer-name"
+                                                    id="employer-name" placeholder=" اكتب هنا " />
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="job-title">المسمى الوظيفي<span class="red-astrik">*</span>
+                                                </label>
+                                                <input class="form-control " type="text" name="job-title" id="job-title"
+                                                    placeholder=" اكتب هنا " />
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="start-date">تاريخ البدء<span class="red-astrik">*</span>
+                                                </label>
+                                                <div class="date-input">
+                                                    <input class="form-control " type="text" name="start-date"
+                                                        id="start-date" />
+                                                    <img src="./assets/icons/CalendarBlank.svg" alt=""
+                                                        class="calendar-icon">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="end-date">تاريخ الانتهاء<span class="red-astrik">*</span>
+                                                </label>
+                                                <div class="date-input">
+                                                    <input class="form-control " type="text" name="end-date"
+                                                        id="end-date" />
+                                                    <img src="./assets/icons/CalendarBlank.svg" alt=""
+                                                        class="calendar-icon">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="reasons-for-leaving">أسباب المغادرة <span
+                                                        class="red-astrik">*</span> </label>
+                                                <input class="form-control " type="text" name="reasons-for-leaving"
+                                                    id="reasons-for-leaving" placeholder=" اكتب هنا " />
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="Salary">الراتب <span class="red-astrik">*</span> </label>
+                                                <input class="form-control " type="text" name="Salary" id="Salary"
+                                                    placeholder=" اكتب هنا " />
+                                            </div>
+                                            <div class="col-xxl-2 col-lg-3 col-md-4 col-12 d-flex flex-column gap-3">
+                                                <button class="secondary-btn w-100 d-flex justify-content-center">
+                                                    <picture><img src="./assets/icons/Plus.svg" alt=""></picture>
+                                                    <span>إضافة المزيد</span>
+                                                </button>
+                                                <button class="main-btn w-100 d-flex justify-content-center">
+                                                    <span>التالي</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -230,159 +230,171 @@
                     <div class="inputs-form">
                         <h3 class="mb-4 text-primary-color text-center">Please fill in the job application</h3>
                         <p class="text-center">Please enter all relevant personal information in the fields below.</p>
-                        <!-- Start Pagination for steps -->
-                        <div class="stepper">
-                            <div class="step active">
-                                <h3 class="circle">01</h3>
-                                <p class="label">Personal Information</p>
-                            </div>
-                            <div class="step">
-                                <h3 class="circle">02</h3>
-                                <p class="label">Education Information</p>
-                            </div>
-                            <div class="step">
-                                <h3 class="circle">03</h3>
-                                <p class="label">Experience Information</p>
-                            </div>
-                            <div class="step">
-                                <h3 class="circle">04</h3>
-                                <p class="label">Reference Information</p>
-                            </div>
-                        </div>
-                        <!-- End Pagination for steps -->
-
-                        <form action="" class="">
-                            <div class="d-flex flex-column w-100 align-items-center  justify-content-center ">
-                                <div class="row w-100 px-0 g-4 pt-3 pb-5">
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="formFile">Select File <span class="red-astrik">*</span></label>
-                                        <div class="input-file">
-                                            <input class="form-control" type="text" readonly name="formFile"
-                                                id="formFile">
-                                            <span id="fileName"></span>
-                                            <span class="btn input-file-btn">Browse..</span>
-                                            <input type="file" id="file-input" accept=".pdf,.doc,.docx" />
-                                        </div>
+                        <div class="row gx-3 gx-md-0">
+                            <!-- Start Pagination for steps -->
+                            <div class="col-md-12 col-sm-3 col-2">
+                                <div class="stepper">
+                                    <div class="step active">
+                                        <h3 class="circle">01</h3>
+                                        <p class="label">Personal Information</p>
                                     </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="name">Name<span class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="name" id="name"
-                                            placeholder=" Name " />
+                                    <div class="step">
+                                        <h3 class="circle">02</h3>
+                                        <p class="label">Education Information</p>
                                     </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="Gender">Select Gender <span class="red-astrik">*</span>
-                                        </label>
-                                        <select class="form-select" type="Gender" name="Gender" id="Gender"
-                                            placeholder=" Select ">
-                                            <option value="Select">Select</option>
-                                            <option value="Male">Male</option>
-                                            <option value="Female">Female</option>
-                                        </select>
+                                    <div class="step">
+                                        <h3 class="circle">03</h3>
+                                        <p class="label">Experience Information</p>
                                     </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="Country">Country <span class="red-astrik">*</span>
-                                        </label>
-                                        <select class="form-select" type="Country" name="Country" id="Country"
-                                            placeholder=" Select ">
-                                            <option value="Select">Select</option>
-                                            <option value="">Jordan</option>
-                                            <option value="">Egypt</option>
-                                        </select>
+                                    <div class="step">
+                                        <h3 class="circle">04</h3>
+                                        <p class="label">Reference Information</p>
                                     </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="City">City <span class="red-astrik">*</span>
-                                        </label>
-                                        <select class="form-select" type="City" name="City" id="City"
-                                            placeholder=" Select ">
-                                            <option value="Select">Select</option>
-                                            <option value="">1</option>
-                                            <option value="">2</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="birthdate">Date of Birth<span class="red-astrik">*</span>
-                                        </label>
-                                        <div class="date-input">
-                                            <input class="form-control " type="date" name="birthdate" id="birthdate" />
-                                            <!-- <img src="./assets/icons/CalendarBlank.svg" alt="" class="calendar-icon"> -->
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="Nationality">Nationality <span class="red-astrik">*</span>
-                                        </label>
-                                        <select class="form-select" type="Nationality" name="Nationality"
-                                            id="Nationality" placeholder=" Select ">
-                                            <option value="Select">Select</option>
-                                            <option value="">1</option>
-                                            <option value="">2</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="email">Email Address<span class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="email" name="email" id="email"
-                                            placeholder=" info@example.com " />
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="MaritalStatus">Marital Status <span class="red-astrik">*</span>
-                                        </label>
-                                        <select class="form-select" type="MaritalStatus" name="MaritalStatus"
-                                            id="MaritalStatus" placeholder=" Select ">
-                                            <option value="Select">Select</option>
-                                            <option value="">1</option>
-                                            <option value="">2</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="number-of-dependent">Number of Dependent <span
-                                                class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="number-of-dependent"
-                                            id="number-of-dependent" placeholder=" Type " />
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="street-address">Street Address (Line 1) <span
-                                                class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="street-address"
-                                            id="street-address" placeholder=" Type " />
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="cellular-number-input">Cellular Number<span
-                                                class="red-astrik">*</span>
-                                        </label>
-                                        <input class="form-control " type="text" name="cellular-number-input"
-                                            id="cellular-number-input" placeholder=" xxx xxx xxx ">
-                                    </div>
-                                    <div class="col-lg-6 col-12 d-flex flex-column gap-2">
-                                        <label for="home-number-input">Home Phone Number<span
-                                                class="red-astrik">*</span>
-                                        </label>
-                                        <input class="form-control " type="text" name="home-number-input"
-                                            id="home-number-input" placeholder=" xxx xxx xxx ">
-                                    </div>
-                                    <div class="col-lg-6 col-12 d-flex flex-column gap-2">
-                                        <label for="own-car">Do you own a car <span class="red-astrik">*</span>
-                                        </label>
-                                        <select class="form-select" type="own-car" name="own-car" id="own-car"
-                                            placeholder=" Select ">
-                                            <option value="Yes">Yes</option>
-                                            <option value="No">No</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-12 d-flex flex-column gap-2">
-                                        <label for="prev-experience">Do you have previous experience in microfinance
-                                            <span class="red-astrik">*</span>
-                                        </label>
-                                        <select class="form-select" type="prev-experience" name="prev-experience"
-                                            id="prev-experience" placeholder=" Select ">
-                                            <option value="Yes">Yes</option>
-                                            <option value="No">No</option>
-                                        </select>
-                                    </div>
-                                    <button class="main-btn ms-2">
-                                        <span>Next</span>
-                                    </button>
                                 </div>
                             </div>
-                        </form>
+                            <!-- End Pagination for steps -->
+
+                            <div class="col-md-12 col-sm-9 col-10">
+                                <form action="" class="">
+                                    <div
+                                        class="col-12 col-md-6 d-flex flex-column w-100 align-items-center  justify-content-center ">
+                                        <div class="row w-100 px-0 g-4 pt-3 pb-5">
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="formFile">Select File <span
+                                                        class="red-astrik">*</span></label>
+                                                <div class="input-file">
+                                                    <input class="form-control" type="text" readonly name="formFile"
+                                                        id="formFile">
+                                                    <span id="fileName"></span>
+                                                    <span class="btn input-file-btn">Browse..</span>
+                                                    <input type="file" id="file-input" accept=".pdf,.doc,.docx" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="name">Name<span class="red-astrik">*</span> </label>
+                                                <input class="form-control " type="text" name="name" id="name"
+                                                    placeholder=" Name " />
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="Gender">Select Gender <span class="red-astrik">*</span>
+                                                </label>
+                                                <select class="form-select" type="Gender" name="Gender" id="Gender"
+                                                    placeholder=" Select ">
+                                                    <option value="Select">Select</option>
+                                                    <option value="Male">Male</option>
+                                                    <option value="Female">Female</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="Country">Country <span class="red-astrik">*</span>
+                                                </label>
+                                                <select class="form-select" type="Country" name="Country" id="Country"
+                                                    placeholder=" Select ">
+                                                    <option value="Select">Select</option>
+                                                    <option value="">Jordan</option>
+                                                    <option value="">Egypt</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="City">City <span class="red-astrik">*</span>
+                                                </label>
+                                                <select class="form-select" type="City" name="City" id="City"
+                                                    placeholder=" Select ">
+                                                    <option value="Select">Select</option>
+                                                    <option value="">1</option>
+                                                    <option value="">2</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="birthdate">Date of Birth<span class="red-astrik">*</span>
+                                                </label>
+                                                <div class="date-input">
+                                                    <input class="form-control " type="date" name="birthdate"
+                                                        id="birthdate" />
+                                                    <!-- <img src="./assets/icons/CalendarBlank.svg" alt="" class="calendar-icon"> -->
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="Nationality">Nationality <span class="red-astrik">*</span>
+                                                </label>
+                                                <select class="form-select" type="Nationality" name="Nationality"
+                                                    id="Nationality" placeholder=" Select ">
+                                                    <option value="Select">Select</option>
+                                                    <option value="">1</option>
+                                                    <option value="">2</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="email">Email Address<span class="red-astrik">*</span>
+                                                </label>
+                                                <input class="form-control " type="email" name="email" id="email"
+                                                    placeholder=" info@example.com " />
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="MaritalStatus">Marital Status <span
+                                                        class="red-astrik">*</span>
+                                                </label>
+                                                <select class="form-select" type="MaritalStatus" name="MaritalStatus"
+                                                    id="MaritalStatus" placeholder=" Select ">
+                                                    <option value="Select">Select</option>
+                                                    <option value="">1</option>
+                                                    <option value="">2</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="number-of-dependent">Number of Dependent <span
+                                                        class="red-astrik">*</span> </label>
+                                                <input class="form-control " type="text" name="number-of-dependent"
+                                                    id="number-of-dependent" placeholder=" Type " />
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="street-address">Street Address (Line 1) <span
+                                                        class="red-astrik">*</span> </label>
+                                                <input class="form-control " type="text" name="street-address"
+                                                    id="street-address" placeholder=" Type " />
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="cellular-number-input">Cellular Number<span
+                                                        class="red-astrik">*</span>
+                                                </label>
+                                                <input class="form-control " type="text" name="cellular-number-input"
+                                                    id="cellular-number-input" placeholder=" xxx xxx xxx ">
+                                            </div>
+                                            <div class="col-lg-6 col-12 d-flex flex-column gap-2">
+                                                <label for="home-number-input">Home Phone Number<span
+                                                        class="red-astrik">*</span>
+                                                </label>
+                                                <input class="form-control " type="text" name="home-number-input"
+                                                    id="home-number-input" placeholder=" xxx xxx xxx ">
+                                            </div>
+                                            <div class="col-lg-6 col-12 d-flex flex-column gap-2">
+                                                <label for="own-car">Do you own a car <span class="red-astrik">*</span>
+                                                </label>
+                                                <select class="form-select" type="own-car" name="own-car" id="own-car"
+                                                    placeholder=" Select ">
+                                                    <option value="Yes">Yes</option>
+                                                    <option value="No">No</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 d-flex flex-column gap-2">
+                                                <label for="prev-experience">Do you have previous experience in
+                                                    microfinance
+                                                    <span class="red-astrik">*</span>
+                                                </label>
+                                                <select class="form-select" type="prev-experience"
+                                                    name="prev-experience" id="prev-experience" placeholder=" Select ">
+                                                    <option value="Yes">Yes</option>
+                                                    <option value="No">No</option>
+                                                </select>
+                                            </div>
+                                            <button class="main-btn ms-2">
+                                                <span>Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

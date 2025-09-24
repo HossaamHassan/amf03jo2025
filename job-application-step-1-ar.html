@@ -204,150 +204,165 @@
                     <div class="inputs-form">
                         <h3 class="mb-4 text-primary-color text-center">يرجى ملء طلب التوظيف</h3>
                         <p class="text-center">يرجى إدخال جميع المعلومات الشخصية ذات الصلة في الحقول أدناه.</p>
-                        <!-- Start Pagination for steps -->
-                        <div class="stepper">
-                            <div class="step active">
-                                <h3 class="circle">01</h3>
-                                <p class="label">المعلومات الشخصية</p>
-                            </div>
-                            <div class="step">
-                                <h3 class="circle">02</h3>
-                                <p class="label">المعلومات التعليمية</p>
-                            </div>
-                            <div class="step">
-                                <h3 class="circle">03</h3>
-                                <p class="label">المعلومات المهنية</p>
-                            </div>
-                            <div class="step">
-                                <h3 class="circle">04</h3>
-                                <p class="label">معلومات المراجع</p>
-                            </div>
-                        </div>
-                        <!-- End Pagination for steps -->
-
-                        <form action="" class="">
-                            <div class="d-flex flex-column w-100 align-items-center  justify-content-center ">
-                                <div class="row w-100 px-0 g-4 pt-3 pb-5">
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="formFile">اختر ملف <span class="red-astrik">*</span></label>
-                                        <div class="input-file">
-                                            <input class="form-control" type="text" readonly name="formFile"
-                                                id="formFile">
-                                            <span id="fileName"></span>
-                                            <span class="btn input-file-btn">تصفح..</span>
-                                            <input type="file" id="file-input" accept=".pdf,.doc,.docx" />
-                                        </div>
+                        <div class="row gx-3 gx-md-0">
+                            <!-- Start Pagination for steps -->
+                            <div class="col-md-12 col-sm-3 col-2">
+                                <div class="stepper">
+                                    <div class="step active">
+                                        <h3 class="circle">01</h3>
+                                        <p class="label">المعلومات الشخصية</p>
                                     </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="name">الاسم<span class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="name" id="name"
-                                            placeholder=" الاسم " />
+                                    <div class="step">
+                                        <h3 class="circle">02</h3>
+                                        <p class="label">المعلومات التعليمية</p>
                                     </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="Gender">اختر الجنس <span class="red-astrik">*</span> </label>
-                                        <select class="form-select" type="Gender" name="Gender" id="Gender"
-                                            placeholder=" اختر ">
-                                            <option value="Select">اختر</option>
-                                            <option value="Male">ذكر</option>
-                                            <option value="Female">أنثى</option>
-                                        </select>
+                                    <div class="step">
+                                        <h3 class="circle">03</h3>
+                                        <p class="label">المعلومات المهنية</p>
                                     </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="Country">الدولة <span class="red-astrik">*</span> </label>
-                                        <select class="form-select" type="Country" name="Country" id="Country"
-                                            placeholder=" اختر ">
-                                            <option value="Select">اختر</option>
-                                            <option value="">الأردن</option>
-                                            <option value="">مصر</option>
-                                        </select>
+                                    <div class="step">
+                                        <h3 class="circle">04</h3>
+                                        <p class="label">معلومات المراجع</p>
                                     </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="City">المدينة <span class="red-astrik">*</span> </label>
-                                        <select class="form-select" type="City" name="City" id="City"
-                                            placeholder=" اختر ">
-                                            <option value="Select">اختر</option>
-                                            <option value="">1</option>
-                                            <option value="">2</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="birthdate">تاريخ الميلاد<span class="red-astrik">*</span> </label>
-                                        <div class="date-input">
-                                            <input class="form-control " type="text" name="birthdate" id="birthdate" />
-                                            <img src="./assets/icons/CalendarBlank.svg" alt="" class="calendar-icon">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="Nationality">الجنسية <span class="red-astrik">*</span> </label>
-                                        <select class="form-select" type="Nationality" name="Nationality"
-                                            id="Nationality" placeholder=" اختر ">
-                                            <option value="Select">اختر</option>
-                                            <option value="">1</option>
-                                            <option value="">2</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="email">البريد الإلكتروني<span class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="email" name="email" id="email"
-                                            placeholder=" info@example.com " />
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="MaritalStatus">الحالة الاجتماعية <span class="red-astrik">*</span>
-                                        </label>
-                                        <select class="form-select" type="MaritalStatus" name="MaritalStatus"
-                                            id="MaritalStatus" placeholder=" اختر ">
-                                            <option value="Select">اختر</option>
-                                            <option value="">1</option>
-                                            <option value="">2</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="number-of-dependent">عدد المعالين <span class="red-astrik">*</span>
-                                        </label>
-                                        <input class="form-control " type="text" name="number-of-dependent"
-                                            id="number-of-dependent" placeholder=" اكتب " />
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="street-address">عنوان الشارع (السطر 1) <span
-                                                class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="street-address"
-                                            id="street-address" placeholder=" اكتب " />
-                                    </div>
-                                    <div class="col-lg-4 col-12 d-flex flex-column gap-2">
-                                        <label for="cellular-number-input">رقم الهاتف المحمول<span
-                                                class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="cellular-number-input"
-                                            id="cellular-number-input" placeholder=" xxx xxx xxx ">
-                                    </div>
-                                    <div class="col-lg-6 col-12 d-flex flex-column gap-2">
-                                        <label for="home-number-input">رقم الهاتف الأرضي<span
-                                                class="red-astrik">*</span> </label>
-                                        <input class="form-control " type="text" name="home-number-input"
-                                            id="home-number-input" placeholder=" xxx xxx xxx ">
-                                    </div>
-                                    <div class="col-lg-6 col-12 d-flex flex-column gap-2">
-                                        <label for="own-car">هل تمتلك سيارة؟ <span class="red-astrik">*</span> </label>
-                                        <select class="form-select" type="own-car" name="own-car" id="own-car"
-                                            placeholder=" اختر ">
-                                            <option value="Yes">نعم</option>
-                                            <option value="No">لا</option>
-                                        </select>
-                                    </div>
-                                    <div class="col-12 d-flex flex-column gap-2">
-                                        <label for="prev-experience">هل لديك خبرة سابقة في التمويل الصغير؟ <span
-                                                class="red-astrik">*</span> </label>
-                                        <select class="form-select" type="prev-experience" name="prev-experience"
-                                            id="prev-experience" placeholder=" اختر ">
-                                            <option value="Yes">نعم</option>
-                                            <option value="No">لا</option>
-                                        </select>
-                                    </div>
-                                    <button class="main-btn ms-2">
-                                        <span>التالي</span>
-                                    </button>
                                 </div>
                             </div>
-                        </form>
+                            <!-- End Pagination for steps -->
+
+                            <div class="col-md-12 col-sm-9 col-10">
+                                <form action="" class="">
+                                    <div class="d-flex flex-column w-100 align-items-center  justify-content-center ">
+                                        <div class="row w-100 px-0 g-4 pt-3 pb-5">
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="formFile">اختر ملف <span class="red-astrik">*</span></label>
+                                                <div class="input-file">
+                                                    <input class="form-control" type="text" readonly name="formFile"
+                                                        id="formFile">
+                                                    <span id="fileName"></span>
+                                                    <span class="btn input-file-btn">تصفح..</span>
+                                                    <input type="file" id="file-input" accept=".pdf,.doc,.docx" />
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="name">الاسم<span class="red-astrik">*</span> </label>
+                                                <input class="form-control " type="text" name="name" id="name"
+                                                    placeholder=" الاسم " />
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="Gender">اختر الجنس <span class="red-astrik">*</span>
+                                                </label>
+                                                <select class="form-select" type="Gender" name="Gender" id="Gender"
+                                                    placeholder=" اختر ">
+                                                    <option value="Select">اختر</option>
+                                                    <option value="Male">ذكر</option>
+                                                    <option value="Female">أنثى</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="Country">الدولة <span class="red-astrik">*</span> </label>
+                                                <select class="form-select" type="Country" name="Country" id="Country"
+                                                    placeholder=" اختر ">
+                                                    <option value="Select">اختر</option>
+                                                    <option value="">الأردن</option>
+                                                    <option value="">مصر</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="City">المدينة <span class="red-astrik">*</span> </label>
+                                                <select class="form-select" type="City" name="City" id="City"
+                                                    placeholder=" اختر ">
+                                                    <option value="Select">اختر</option>
+                                                    <option value="">1</option>
+                                                    <option value="">2</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="birthdate">تاريخ الميلاد<span class="red-astrik">*</span>
+                                                </label>
+                                                <div class="date-input">
+                                                    <input class="form-control " type="text" name="birthdate"
+                                                        id="birthdate" />
+                                                    <img src="./assets/icons/CalendarBlank.svg" alt=""
+                                                        class="calendar-icon">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="Nationality">الجنسية <span class="red-astrik">*</span>
+                                                </label>
+                                                <select class="form-select" type="Nationality" name="Nationality"
+                                                    id="Nationality" placeholder=" اختر ">
+                                                    <option value="Select">اختر</option>
+                                                    <option value="">1</option>
+                                                    <option value="">2</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="email">البريد الإلكتروني<span class="red-astrik">*</span>
+                                                </label>
+                                                <input class="form-control " type="email" name="email" id="email"
+                                                    placeholder=" info@example.com " />
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="MaritalStatus">الحالة الاجتماعية <span
+                                                        class="red-astrik">*</span>
+                                                </label>
+                                                <select class="form-select" type="MaritalStatus" name="MaritalStatus"
+                                                    id="MaritalStatus" placeholder=" اختر ">
+                                                    <option value="Select">اختر</option>
+                                                    <option value="">1</option>
+                                                    <option value="">2</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="number-of-dependent">عدد المعالين <span
+                                                        class="red-astrik">*</span>
+                                                </label>
+                                                <input class="form-control " type="text" name="number-of-dependent"
+                                                    id="number-of-dependent" placeholder=" اكتب " />
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="street-address">عنوان الشارع (السطر 1) <span
+                                                        class="red-astrik">*</span> </label>
+                                                <input class="form-control " type="text" name="street-address"
+                                                    id="street-address" placeholder=" اكتب " />
+                                            </div>
+                                            <div class="col-lg-4 col-12 d-flex flex-column gap-2">
+                                                <label for="cellular-number-input">رقم الهاتف المحمول<span
+                                                        class="red-astrik">*</span> </label>
+                                                <input class="form-control " type="text" name="cellular-number-input"
+                                                    id="cellular-number-input" placeholder=" xxx xxx xxx ">
+                                            </div>
+                                            <div class="col-lg-6 col-12 d-flex flex-column gap-2">
+                                                <label for="home-number-input">رقم الهاتف الأرضي<span
+                                                        class="red-astrik">*</span> </label>
+                                                <input class="form-control " type="text" name="home-number-input"
+                                                    id="home-number-input" placeholder=" xxx xxx xxx ">
+                                            </div>
+                                            <div class="col-lg-6 col-12 d-flex flex-column gap-2">
+                                                <label for="own-car">هل تمتلك سيارة؟ <span class="red-astrik">*</span>
+                                                </label>
+                                                <select class="form-select" type="own-car" name="own-car" id="own-car"
+                                                    placeholder=" اختر ">
+                                                    <option value="Yes">نعم</option>
+                                                    <option value="No">لا</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 d-flex flex-column gap-2">
+                                                <label for="prev-experience">هل لديك خبرة سابقة في التمويل الصغير؟ <span
+                                                        class="red-astrik">*</span> </label>
+                                                <select class="form-select" type="prev-experience"
+                                                    name="prev-experience" id="prev-experience" placeholder=" اختر ">
+                                                    <option value="Yes">نعم</option>
+                                                    <option value="No">لا</option>
+                                                </select>
+                                            </div>
+                                            <button class="main-btn ms-2">
+                                                <span>التالي</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
