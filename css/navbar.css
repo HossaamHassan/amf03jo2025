@@ -292,20 +292,24 @@
         background-color: #fff;
         z-index: 11;
         max-height: 245px;
-        overflow: scroll;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
     }
-.navbar-collapse::-webkit-scrollbar {
-    width: 10px;
-}
 
-.navbar-collapse::-webkit-scrollbar-thumb {
-    background: var(--primary-color);
-    border-radius: 3px;
-}
+    .navbar-collapse::-webkit-scrollbar {
+        width: 6px;
+        -webkit-appearance: none;
+    }
 
-.navbar-collapse::-webkit-scrollbar-thumb:hover {
-    background: var(--primary-color);
-}
+    .navbar-collapse::-webkit-scrollbar-thumb {
+        background: var(--primary-color);
+        border-radius: 3px;
+    }
+
+    .navbar-collapse::-webkit-scrollbar-thumb:hover {
+        background: var(--primary-color);
+    }
+
     .small-screen {
         padding: 1rem;
         color: var(--secondary-color);
