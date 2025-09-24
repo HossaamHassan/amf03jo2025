@@ -297,7 +297,7 @@
     }
 
     .navbar-collapse::-webkit-scrollbar {
-        width: 6px;
+        width: 8px;
         -webkit-appearance: none;
     }
 
