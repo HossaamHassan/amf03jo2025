@@ -295,7 +295,7 @@
         overflow: scroll;
     }
 .navbar-collapse::-webkit-scrollbar {
-    width: 6px;
+    width: 10px;
 }
 
 .navbar-collapse::-webkit-scrollbar-thumb {
