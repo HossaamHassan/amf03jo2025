@@ -948,14 +948,20 @@ a:hover .user-icon-black {
         margin-top: 0px;
     }
 
+    .dropdown-menu-news ul {
+        background-color: rgb(0 151 159 / 5%);
+    }
+
     .dropdown-menu-news a,
     .custom-white-dropdown a {
         color: var(--secondary-color);
         padding: 0.5rem;
     }
+
     .navbar-nav li ul li:first-child {
         border-top: 1px solid rgba(52, 52, 52, 0.2);
     }
+
     .navbar-nav li:not(:last-child) {
         border-bottom: 1px solid rgba(52, 52, 52, 0.2);
     }
