@@ -790,7 +790,7 @@ input::placeholder {
     }
 
     .custom-nav .dropdown-menu-news a {
-        padding-inline-start: 1.2rem;
+        padding-inline-start: 2.2rem;
         padding-block: .1rem;
     }
 
@@ -953,7 +953,9 @@ a:hover .user-icon-black {
         color: var(--secondary-color);
         padding: 0.5rem;
     }
-
+    .navbar-nav li ul li:first-child {
+        border-top: 1px solid rgba(52, 52, 52, 0.2);
+    }
     .navbar-nav li:not(:last-child) {
         border-bottom: 1px solid rgba(52, 52, 52, 0.2);
     }
