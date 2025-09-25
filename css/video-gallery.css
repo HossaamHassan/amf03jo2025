@@ -3,6 +3,10 @@
     border-radius: 50%;
 }
 
+.is-compact .fancybox__content>.f-button.is-close-btn {
+    top: -38px !important;
+}
+
 .f-button.is-close-btn:hover {
     background-color: var(--secondary-color) !important;
 }
@@ -15,4 +19,103 @@
 .f-button.is-prev:hover,
 .f-button.is-next:hover {
     background-color: var(--primary-color) !important;
+}
+
+@media (max-width: 1100px) {
+    .f-button.is-prev,
+    .f-button.is-next {
+        top: 82% !important;
+        transform: translateY(0) !important;
+    }
+    .f-button.is-prev {
+        left: 5rem !important;
+        right: auto !important;
+    }
+    .f-button.is-next {
+        left: 10rem !important;
+        right: auto !important;
+    }
+    .arabic-version .f-button.is-next {
+        right: 5rem !important;
+        left: auto !important;
+    }
+    .arabic-version .f-button.is-prev {
+        right: 10rem !important;
+        left: auto !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .f-button.is-prev {
+        left: 1rem !important;
+        right: auto !important;
+    }
+    .f-button.is-next {
+        left: 6rem !important;
+        right: auto !important;
+    }
+    .arabic-version .f-button.is-next {
+        right: 1rem !important;
+        left: auto !important;
+    }
+    .arabic-version .f-button.is-prev {
+        right: 6rem !important;
+        left: auto !important;
+    }
+}
+
+@media (max-width: 899.98px) {
+    .f-button.is-prev,
+    .f-button.is-next {
+        top: 80% !important;
+        transform: translateY(0) !important;
+    }
+}
+
+@media (max-width: 799.98px) {
+    .f-button.is-prev,
+    .f-button.is-next {
+        top: 77% !important;
+        transform: translateY(0) !important;
+    }
+}
+
+@media (max-width: 699.98px) {
+    .f-button.is-prev,
+    .f-button.is-next {
+        top: 74% !important;
+        transform: translateY(0) !important;
+    }
+}
+
+@media (max-width: 599.98px) {
+    .f-button.is-prev,
+    .f-button.is-next {
+        top: 70% !important;
+        transform: translateY(0) !important;
+    }
+}
+
+@media (max-width: 549.98px) {
+    .f-button.is-prev,
+    .f-button.is-next {
+        top: 67% !important;
+        transform: translateY(0) !important;
+    }
+}
+
+@media (max-width: 449.98px) {
+    .f-button.is-prev,
+    .f-button.is-next {
+        top: 64% !important;
+        transform: translateY(0) !important;
+    }
+}
+
+@media (max-width: 349.98px) {
+    .f-button.is-prev,
+    .f-button.is-next {
+        top: 62% !important;
+        transform: translateY(0) !important;
+    }
 }
